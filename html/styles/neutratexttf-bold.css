@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'NeutraTextTFBold';
-    src: url('neutratexttf-bold.eot');
-    src: url('neutratexttf-bold.eot') format('embedded-opentype'),
-         url('neutratexttf-bold.woff') format('woff'),
-         url('neutratexttf-bold.ttf') format('truetype'),
-         url('neutratexttf-bold.svg#NeutraTextTFBold') format('svg');
-}
