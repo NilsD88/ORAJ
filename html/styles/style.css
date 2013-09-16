@@ -4,29 +4,71 @@ html{
 
 
 .page{
-	position:absolute;
 	padding-top:60px;
 	width:100%;
-	height:100%
+	height:93.66%;
+	float: right;
+	overflow-x:hidden;
+	
 }
 #viewport{
-	position:relative;
 	width:100%;
 	height:100%;
-	overflow-x:hidden;
+	overflow:hidden;
 }
 
-#homepage{
-	left:0%;
+@media (max-width:979px){
+	.navbar-fixed-top{
+		margin-bottom:0px;
+	}
 }
+
+@media (max-width: 767px) {
+	body{
+		padding-left:0;
+		padding-right:0;
+	}
+	.navbar-fixed-top{
+		margin-bottom:0px;
+	}
+}
+
+@media screen and (max-width:1920px){
+
+#homepage{
+	background-image: url('../img/background/home-1920.jpg');
+	background-attachment:fixed;
+}
+
 #page2{
-	left:100%;
+	background-image: url('../img/background/about-1920.jpg');
+	background-attachment:fixed;
 }
 #page3{
-	left:200%;
+	background-image: url('../img/background/specialization-1920.jpg');
+	background-attachment:fixed;
 }
 #page4{
-	left:300%;
+	background-image: url('../img/background/jobs-1920.jpg');
+	background-attachment:fixed;
+	}
+}
+	
+@media screen and (max-width:640px){
+
+#homepage{
+	background-image: url('../img/background/home-640.jpg')
+}
+#page2{
+	background-image: url('../img/background/about-640.jpg')
+}
+#page3{
+	background-image: url('../img/background/specialization-640.jpg')
+}
+#page4{
+	background-image: url('../img/background/jobs-640.jpg')
+
+
 }
 
 

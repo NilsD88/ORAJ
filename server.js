@@ -7,3 +7,5 @@ require('http').createServer(function (request, response) {
         fileServer.serve(request, response);
     }).resume();
 }).listen(1337);
+
+console.log("The server awaits you");
