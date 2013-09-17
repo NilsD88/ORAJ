@@ -114,7 +114,8 @@ html {
     background-position-y: top;
     background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
+    width: 90%;
+    margin: auto;
     text-align: center;
   }
 }
