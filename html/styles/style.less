@@ -2,6 +2,15 @@
 @gray: #EEEEEE;
 @black: #000000;
 
+/* FUNCTIONS */
+
+.page () {
+  width:100%;
+  height:93.66%;
+  float: right;
+  overflow-x:hidden;
+}
+
 h1, h2{
 	font-family: 'FuturaMedium';
 }
@@ -22,26 +31,17 @@ html{
 	/* MOST SMARTPHONES PORTRAIT */
 	@media screen and (min-width: 319px){
 		padding-top:25px;
-		width:100%;
-		height:93.66%;
-		float: right;
-		overflow-x:hidden;
+		.page;
 	}
 	/* MOST SMARTPHONES landscape */
 	@media screen and (min-width: 479px){
 		padding-top:0px;
-		width:100%;
-		height:93.66%;
-		float: right;
-		overflow-x:hidden;
+		.page;
 	}
 	
 	@media screen and (min-width: 1919px){
 		padding-top:100px;
-		width:100%;
-		height:93.66%;
-		float: right;
-		overflow-x:hidden;
+		.page;
 	}
 	
 }
