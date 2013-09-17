@@ -1,5 +1,6 @@
 @orangeText: #E98300;
 @gray: #EEEEEE;
+@black: #000000;
 
 h1, h2{
 	font-family: 'FuturaMedium';
@@ -24,6 +25,45 @@ html{
 	overflow-x:hidden;
 }
 
+.brand{
+	background-image: url('../img/oraj_logo_big.png');
+	background-repeat: no-repeat;
+	background-position:center left;
+	height: 15px;
+	width: 281px;
+}
+
+#home-page-background{
+	background-image: url('../img/home_text_bg.png');
+	background-position-x: 50%;
+	background-position-y: 20%;
+	background-repeat: no-repeat;
+	height:100%;
+	width: 100%;
+	text-align: center;
+}
+
+#orange{
+	color: @orangeText;
+	font-family: 'FuturaBold',Arial, sans-serif;
+	font-size: 80pt;
+	font-weight:bold;
+	padding-top: 198px;
+}
+
+#homeText{
+	color: @black;
+	font-family: 'FuturaBold',Arial, sans-serif;
+	font-size:43pt;
+	line-height:75px;
+	padding-top:50px;
+	font-weight:bold;
+}
+
+#homeOrdinaLogo{
+	padding-top: 50px;
+}
+
 #viewport{
 	width:100%;
 	height:100%;
@@ -40,8 +80,6 @@ html{
 	text-shadow:none;
 	text-transform:capitalize;
 	font-weight:bold;
-	padding-top:20px;
-	padding-bottom:20px;
 }
 
 .navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover{
@@ -49,7 +87,7 @@ html{
 }
 
 .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus{
-	background-color: @gray;
+	background-color: @black;
 }
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner{
@@ -63,9 +101,11 @@ html{
 #ordina_logo{
 	background-image: url('../img/ordina_logo.png');
 	background-repeat: no-repeat;
-	width:173px;
-	height:38px;
-	background-position:center center; 
+	width:95px;
+	height:40px;
+	background-size:95px 25px;
+	background-position:center right;
+	margin-left:15px;
 	@media (max-width:979px){	display:none;}
 }
 
@@ -96,6 +136,10 @@ body {
 		background-image: url('../img/background/home-1920.jpg');
 		background-attachment:fixed;
 	}
+	@media screen and (max-width:1440px){
+		background-image: url('../img/background/home-1440.jpg');
+		background-attachment:fixed;
+	}
 	@media screen and (max-width:640px){
 		background-image: url('../img/background/home-640.jpg');
 		background-attachment:fixed;
@@ -111,6 +155,10 @@ body {
 #page2{
 	@media screen and (max-width:1920px){
 		background-image: url('../img/background/about-1920.jpg');
+		background-attachment:fixed;
+	}
+	@media screen and (max-width:1440px){
+		background-image: url('../img/background/about-1440.jpg');
 		background-attachment:fixed;
 	}
 	@media screen and (max-width:640px){
@@ -129,6 +177,10 @@ body {
 		background-image: url('../img/background/specialization-1920.jpg');
 		background-attachment:fixed;
 	}
+	@media screen and (max-width:1440px){
+		background-image: url('../img/background/specialization-1440.jpg');
+		background-attachment:fixed;
+	}
 	@media screen and (max-width:640px){
 		background-image: url('../img/background/specialization-640.jpg');
 		background-attachment:fixed;
@@ -145,6 +197,10 @@ body {
 		background-image: url('../img/background/jobs-1920.jpg');
 		background-attachment:fixed;
 		
+	}
+	@media screen and (max-width:1440px){
+		background-image: url('../img/background/jobs-1440.jpg');
+		background-attachment:fixed;
 	}
 	@media screen and (max-width:640px){
 		background-image: url('../img/background/jobs-640.jpg');

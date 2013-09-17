@@ -18,6 +18,40 @@ html {
   float: right;
   overflow-x: hidden;
 }
+.brand {
+  background-image: url('../img/oraj_logo_big.png');
+  background-repeat: no-repeat;
+  background-position: center left;
+  height: 15px;
+  width: 281px;
+}
+#home-page-background {
+  background-image: url('../img/home_text_bg.png');
+  background-position-x: 50%;
+  background-position-y: 20%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+#orange {
+  color: #e98300;
+  font-family: 'FuturaBold', Arial, sans-serif;
+  font-size: 80pt;
+  font-weight: bold;
+  padding-top: 198px;
+}
+#homeText {
+  color: #000000;
+  font-family: 'FuturaBold', Arial, sans-serif;
+  font-size: 43pt;
+  line-height: 75px;
+  padding-top: 50px;
+  font-weight: bold;
+}
+#homeOrdinaLogo {
+  padding-top: 50px;
+}
 #viewport {
   width: 100%;
   height: 100%;
@@ -39,8 +73,6 @@ html {
   text-shadow: none;
   text-transform: capitalize;
   font-weight: bold;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
@@ -49,7 +81,7 @@ html {
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
-  background-color: #eeeeee;
+  background-color: #000000;
 }
 .navbar-fixed-top .navbar-inner,
 .navbar-static-top .navbar-inner {
@@ -61,9 +93,11 @@ html {
 #ordina_logo {
   background-image: url('../img/ordina_logo.png');
   background-repeat: no-repeat;
-  width: 173px;
-  height: 38px;
-  background-position: center center;
+  width: 95px;
+  height: 40px;
+  background-size: 95px 25px;
+  background-position: center right;
+  margin-left: 15px;
 }
 @media (max-width: 979px) {
   #ordina_logo {
@@ -89,6 +123,12 @@ html {
     background-attachment: fixed;
   }
 }
+@media screen and (max-width: 1440px) {
+  #homepage {
+    background-image: url('../img/background/home-1440.jpg');
+    background-attachment: fixed;
+  }
+}
 @media screen and (max-width: 640px) {
   #homepage {
     background-image: url('../img/background/home-640.jpg');
@@ -106,6 +146,12 @@ html {
 @media screen and (max-width: 1920px) {
   #page2 {
     background-image: url('../img/background/about-1920.jpg');
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 1440px) {
+  #page2 {
+    background-image: url('../img/background/about-1440.jpg');
     background-attachment: fixed;
   }
 }
@@ -129,6 +175,12 @@ html {
     background-attachment: fixed;
   }
 }
+@media screen and (max-width: 1440px) {
+  #page3 {
+    background-image: url('../img/background/specialization-1440.jpg');
+    background-attachment: fixed;
+  }
+}
 @media screen and (max-width: 640px) {
   #page3 {
     background-image: url('../img/background/specialization-640.jpg');
@@ -146,6 +198,12 @@ html {
 @media screen and (max-width: 1920px) {
   #page4 {
     background-image: url('../img/background/jobs-1920.jpg');
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 1440px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1440.jpg');
     background-attachment: fixed;
   }
 }
