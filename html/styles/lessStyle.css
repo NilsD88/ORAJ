@@ -346,9 +346,15 @@ html {
     background-attachment: fixed;
   }
 }
-@media screen and (min-width: 1919px) {
+@media screen and (min-width: 1732px) {
   #homepage {
     background-image: url('../img/background/home-1920.jpg');
+    background-attachment: fixed;
+  }
+}
+@media screen and (min-width: 1919px) {
+  #homepage {
+    background-image: url('../img/background/home-2560.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
@@ -356,45 +362,64 @@ html {
 #page2 {
   /* MOST SMARTPHONES PORTRAIT */
 
-  /* NEXUS 4 PORTRAIT */
-
 }
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 319px) {
+  #page2 {
+    background-image: url('../img/background/about-800.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 319px) {
+  #page2 {
+    background-image: url('../img/background/about-1024.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 479px) {
+  #page2 {
+    background-image: url('../img/background/about-1440.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 639px) {
+  #page2 {
+    background-image: url('../img/background/about-800.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 767px) {
+  #page2 {
+    background-image: url('../img/background/about-1440.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #page2 {
+    background-image: url('../img/background/about-1440.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 1439px) {
+  #page2 {
+    background-image: url('../img/background/about-1733.jpg');
+    background-attachment: fixed;
+  }
+}
+@media screen and (min-width: 1732px) {
   #page2 {
     background-image: url('../img/background/about-1920.jpg');
     background-attachment: fixed;
   }
 }
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1919px) {
   #page2 {
-    background-image: url('../img/background/about-1440.jpg');
-    background-attachment: fixed;
-  }
-}
-@media screen and (max-width: 640px) {
-  #page2 {
-    background-image: url('../img/background/about-640.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-}
-@media screen and (max-width: 480px) {
-  #page2 {
-    background-image: url('../img/background/about-480.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-}
-@media screen and (max-width: 320px) {
-  #page2 {
-    background-image: url('../img/background/about-1024.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-}
-@media screen and (max-width: 768px) {
-  #page2 {
-    background-image: url('../img/background/about-1024.jpg');
+    background-image: url('../img/background/about-2560.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
@@ -402,45 +427,64 @@ html {
 #page3 {
   /* MOST SMARTPHONES PORTRAIT */
 
-  /* NEXUS 4 PORTRAIT */
-
 }
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 319px) {
   #page3 {
-    background-image: url('../img/background/specialization-1920.jpg');
-    background-attachment: fixed;
-  }
-}
-@media screen and (max-width: 1440px) {
-  #page3 {
-    background-image: url('../img/background/specialization-1440.jpg');
-    background-attachment: fixed;
-  }
-}
-@media screen and (max-width: 640px) {
-  #page3 {
-    background-image: url('../img/background/specialization-640.jpg');
+    background-image: url('../img/background/specialization-800.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
 }
-@media screen and (max-width: 480px) {
-  #page3 {
-    background-image: url('../img/background/specialization-480.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-}
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 319px) {
   #page3 {
     background-image: url('../img/background/specialization-1024.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 479px) {
   #page3 {
-    background-image: url('../img/background/jobs-1024.jpg');
+    background-image: url('../img/background/specialization-1440.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 639px) {
+  #page3 {
+    background-image: url('../img/background/specialization-800.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 767px) {
+  #page3 {
+    background-image: url('../img/background/specialization-1440.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #page3 {
+    background-image: url('../img/background/specialization-1440.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 1439px) {
+  #page3 {
+    background-image: url('../img/background/specialization-1733.jpg');
+    background-attachment: fixed;
+  }
+}
+@media screen and (min-width: 1732px) {
+  #page3 {
+    background-image: url('../img/background/specialization-1920.jpg');
+    background-attachment: fixed;
+  }
+}
+@media screen and (min-width: 1919px) {
+  #page3 {
+    background-image: url('../img/background/specialization-2560.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
@@ -448,45 +492,64 @@ html {
 #page4 {
   /* MOST SMARTPHONES PORTRAIT */
 
-  /* NEXUS 4 PORTRAIT */
-
 }
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 319px) {
+  #page4 {
+    background-image: url('../img/background/jobs-800.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 319px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1024.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 479px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1440.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 639px) {
+  #page4 {
+    background-image: url('../img/background/jobs-800.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 767px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1440.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1440.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 1439px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1733.jpg');
+    background-attachment: fixed;
+  }
+}
+@media screen and (min-width: 1732px) {
   #page4 {
     background-image: url('../img/background/jobs-1920.jpg');
     background-attachment: fixed;
   }
 }
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1919px) {
   #page4 {
-    background-image: url('../img/background/jobs-1440.jpg');
-    background-attachment: fixed;
-  }
-}
-@media screen and (max-width: 640px) {
-  #page4 {
-    background-image: url('../img/background/jobs-640.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-}
-@media screen and (max-width: 480px) {
-  #page4 {
-    background-image: url('../img/background/jobs-480.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-}
-@media screen and (max-width: 320px) {
-  #page4 {
-    background-image: url('../img/background/jobs-1024.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-}
-@media screen and (max-width: 768px) {
-  #page4 {
-    background-image: url('../img/background/jobs-1024.jpg');
+    background-image: url('../img/background/jobs-2560.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
