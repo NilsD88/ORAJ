@@ -3,11 +3,10 @@
 @black: #000000;
 
 /* FUNCTIONS */
-
-.page () {
+.page (@maxHeight: 75%) {
   width:100%;
-  height:1%;
-  float: right;  
+  max-height:@maxHeight;
+  overflow:auto;
 }
 
 h1, h2{
@@ -16,6 +15,7 @@ h1, h2{
 
 body{
 	font-family: Arial, sans-serif;
+	background-color:@orangeText;
 }
 
 h2{
@@ -30,44 +30,43 @@ html{
 	/* MOST SMARTPHONES PORTRAIT */
 	@media screen and (min-width: 319px){
 		padding-top:25px;
-		.page;
+		.page(85.5%);
 	}
 	/* MOST SMARTPHONES landscape */
 	@media screen and (min-width: 479px){
-		padding-top:0px;
-		.page;
+		padding-top:30px;
+		.page(87.5%);
 	}
 	
 	@media screen and (min-width: 599){
 	  padding-top: 60px;
-	  .page;
-	  
+	  .page(87%);
 	}
 	
   @media screen and (min-width: 679px){
     padding-top:60px;
-    .page;
+    .page(83%);
   }	
 	
 	 @media screen and (min-width: 799px){
      padding-top: 80px;
-    .page;
+    .page(87%);
   }
   
   @media screen and (min-width: 1023px){
      padding-top:0px;
-     .page;
+     .page(95%);
   }
 	
 	@media screen and (min-width: 1400px){
 	  padding-top: 80px;
-	  .page;
+	  .page(84.1%);
 	}
 	
 	@media screen and (min-width: 1919px){
 		padding-top:100px;
 		height:93.66%;
-		.page;
+		.page(93.66%);
 	}
 	
 }
@@ -324,25 +323,27 @@ html{
   }
   
   @media screen and (min-width: 799px){
-   padding-top: 10px;
-    width: 150px;
+   padding-top: 25px;
+    width: 175px;
     margin: 0 auto;
   }
   
   @media screen and (min-width: 1023px){
-    padding-top: 10px;
-    width: 150px;
+    padding-top: 30px;
+    width:200px;
     margin: 0 auto;
   }
   
   @media screen and (min-width: 1399px){
-    padding-top: 10px;
-    width: 150px;
+     padding-top: 30px;
+    width:200px;
     margin: 0 auto;
   }
   
   @media screen and (min-width: 1919px){
-    padding-top: 50px;
+    padding-top: 30px;
+    width:200px;
+    margin: 0 auto;
   }
 
 }
@@ -467,6 +468,17 @@ body {
 		background-attachment:fixed;
 		background-repeat: no-repeat;
 	}
+}
+
+
+
+/* ABOUT ORAJ */
+
+#page2 {
+  
+}
+#about-oraj {
+  margin-top: 0px;
 }
 
 #page2{

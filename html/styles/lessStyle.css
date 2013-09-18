@@ -5,6 +5,7 @@ h2 {
 }
 body {
   font-family: Arial, sans-serif;
+  background-color: #e98300;
 }
 h2 {
   font-size: 28px;
@@ -22,56 +23,56 @@ html {
   .page {
     padding-top: 25px;
     width: 100%;
-    height: 1%;
-    float: right;
+    max-height: 85.5%;
+    overflow: auto;
   }
 }
 @media screen and (min-width: 479px) {
   .page {
-    padding-top: 0px;
+    padding-top: 30px;
     width: 100%;
-    height: 1%;
-    float: right;
+    max-height: 87.5%;
+    overflow: auto;
   }
 }
 @media screen and (min-width: 599) {
   .page {
     padding-top: 60px;
     width: 100%;
-    height: 1%;
-    float: right;
+    max-height: 87%;
+    overflow: auto;
   }
 }
 @media screen and (min-width: 679px) {
   .page {
     padding-top: 60px;
     width: 100%;
-    height: 1%;
-    float: right;
+    max-height: 83%;
+    overflow: auto;
   }
 }
 @media screen and (min-width: 799px) {
   .page {
     padding-top: 80px;
     width: 100%;
-    height: 1%;
-    float: right;
+    max-height: 87%;
+    overflow: auto;
   }
 }
 @media screen and (min-width: 1023px) {
   .page {
     padding-top: 0px;
     width: 100%;
-    height: 1%;
-    float: right;
+    max-height: 95%;
+    overflow: auto;
   }
 }
 @media screen and (min-width: 1400px) {
   .page {
     padding-top: 80px;
     width: 100%;
-    height: 1%;
-    float: right;
+    max-height: 84.1%;
+    overflow: auto;
   }
 }
 @media screen and (min-width: 1919px) {
@@ -79,8 +80,8 @@ html {
     padding-top: 100px;
     height: 93.66%;
     width: 100%;
-    height: 1%;
-    float: right;
+    max-height: 93.66%;
+    overflow: auto;
   }
 }
 @media (max-width: 767px) {
@@ -360,28 +361,30 @@ html {
 }
 @media screen and (min-width: 799px) {
   #homeOrdinaLogo {
-    padding-top: 10px;
-    width: 150px;
+    padding-top: 25px;
+    width: 175px;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 1023px) {
   #homeOrdinaLogo {
-    padding-top: 10px;
-    width: 150px;
+    padding-top: 30px;
+    width: 200px;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 1399px) {
   #homeOrdinaLogo {
-    padding-top: 10px;
-    width: 150px;
+    padding-top: 30px;
+    width: 200px;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 1919px) {
   #homeOrdinaLogo {
-    padding-top: 50px;
+    padding-top: 30px;
+    width: 200px;
+    margin: 0 auto;
   }
 }
 #viewport {
@@ -512,6 +515,10 @@ html {
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
+}
+/* ABOUT ORAJ */
+#about-oraj {
+  margin-top: 0px;
 }
 #page2 {
   /* MOST SMARTPHONES PORTRAIT */

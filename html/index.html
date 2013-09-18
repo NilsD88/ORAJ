@@ -1,6 +1,6 @@
 <html lang="en"><head>
     <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
+    <title>Oracle/Java</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -10,7 +10,9 @@
 	<link href="../styles/futurastd-bold.css" rel="stylesheet">
     <link href="../styles/bootstrap.css" rel="stylesheet">
 	<link href="../styles/bootstrap-responsive.css" rel="stylesheet">
+	<link href="../styles/animations.css" rel="stylesheet">
 	<link href="../styles/lessStyle.css" rel="stylesheet">
+	<script src="js/modernizr.custom.js"></script>
     <style type="text/css">
       .sidebar-nav {
         padding: 9px 0;
@@ -47,10 +49,10 @@
           <a class="brand homebutton" href="#" >&nbsp;</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active" id="homebutton"><a href="#" class="homebutton">HOME</a></li>
-              <li><a href="#about" id="page2button">ABOUT ORAJ</a></li>
-			   <li><a href="#contact" id="page3button">SPECIALIZATIONS</a></li>
-			   <li><a href="#contact" id="page4button">JOBS</a></li>
+              <li class="active" id="homebutton" data-animation="1"><a href="#" class="homebutton">HOME</a></li>
+              <li><a href="#" id="page2button">ABOUT ORAJ</a></li>
+			   <li><a href="#" id="page3button">SPECIALIZATIONS</a></li>
+			   <li><a href="#" id="page4button">JOBS</a></li>
 			   <li><a href="http://www.ordina.be" id="ordina_logo"></a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -59,8 +61,8 @@
       </div>
     </div>
 
-	<div id="viewport">
-    <div id="homepage" class="page">
+	<div id="pt-main" class="pt-perspective">
+    <div id="homepage" class="page pt-page">
 		<div class="container">
       <div class="row-fluid">
         <div class="span12" id="home-page-background">
@@ -71,123 +73,20 @@
       </div><!--/row-->
 	  </div>
 	</div>
-	<div id="page2" class="page">
+	<div id="page2" class="page pt-page">
 		<div class="container">
       <div class="row-fluid">
-        <div class="span12">
-          <div class="hero-unit">
-            <h1>About</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-            <p><a href="#" class="btn btn-primary btn-large">Learn more ></a></p>
+        <div class="span12" id="about-oraj">
+          <div class="bumtext">
+          	ORAJ UNIT MANAGERS <br/>
+			<span class="about-orange">JÜRGEN DESCHEPPER <br/> JOHAN STEPPE</span>
           </div>
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-          </div><!--/row-->
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-          </div><!--/row-->
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-          </div><!--/row-->
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-          </div><!--/row-->
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-          </div><!--/row-->
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details ></a></p>
-            </div><!--/span-->
-          </div><!--/row-->
         </div><!--/span-->
 		</div>
 		</div>
 		
 	</div>
-	<div id="page3" class="page">
+	<div id="page3" class="page pt-page">
 	 <div class="container">
       <div class="row-fluid">
         <div class="span12">
@@ -234,7 +133,7 @@
 		</div>
 		</div>
 	</div>	
-		<div id="page4" class="page">
+		<div id="page4" class="page pt-page">
 	 <div class="container">
       <div class="row-fluid">
         <div class="span12">
@@ -291,50 +190,139 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-1.8.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/init.js"></script>
-	<script src="js/scrollTo.js"></script>
-	
 	
 	<script>
-		var scrollSpeed = 700;
 	
-		$('.homebutton').click(function(){
-			$('.active').each(function(){
-				$(this).removeClass('active');
-			});
-			$('#homebutton').addClass('active');
-			$('#viewport').scrollTo($('#homepage'), scrollSpeed);
-		});
-		
-		$('#page2button').click(function(){
-			$('.active').each(function(){
-				$(this).removeClass('active');
-			});
-			$(this).closest('li').addClass('active');
-			$('#viewport').scrollTo($('#page2'), scrollSpeed);
-		});
-		
-		$('#page3button').click(function(){
-			$('.active').each(function(){
-				$(this).removeClass('active');
-			});
-			$(this).closest('li').addClass('active');
-			$('#viewport').scrollTo($('#page3'), scrollSpeed);
-		});
-		$('#page4button').click(function(){
-			$('.active').each(function(){
-				$(this).removeClass('active');
-			});
-			$(this).closest('li').addClass('active');
-			$('#viewport').scrollTo($('#page4'), scrollSpeed);
-		});
-		
-		
-		
+	var $main = $( '#pt-main' ),
+		$pages = $main.children( 'div.pt-page' ),
+		$iterate = $( '#iterateEffects' ),
+		animcursor = 1,
+		pagesCount = $pages.length,
+		current = 0,
+		isAnimating = false,
+		endCurrPage = false,
+		endNextPage = false,
+		animEndEventNames = {
+			'WebkitAnimation' : 'webkitAnimationEnd',
+			'OAnimation' : 'oAnimationEnd',
+			'msAnimation' : 'MSAnimationEnd',
+			'animation' : 'animationend'
+		},
+		// animation end event name
+		animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ],
+		// support css animations
+		support = Modernizr.cssanimations;
 	
-	</script>
-	
+	function init() {
 
-  
+		$pages.each( function() {
+			var $page = $( this );
+			$page.data( 'originalClassList', $page.attr( 'class' ) );
+		} );
+
+		$pages.eq( current ).addClass( 'pt-page-current' );
+
+		$iterate.on( 'click', function() {
+			if( isAnimating ) {
+				return false;
+			}
+			if( animcursor > 67 ) {
+				animcursor = 1;
+			}
+			nextPage( animcursor );
+			++animcursor;
+		} );
+
+	}
+	
+	function gotoPage(pagenumber) {
+		if( isAnimating ) {
+			return false;
+		}
+		
+		isAnimating = true;
+		
+		var $currPage = $pages.eq( current );
+		// If page is different than page-number, then go to page-number
+		if( current != pagenumber ) {
+			current = pagenumber;
+		}
+		
+		var $prevPage = $pages.eq( current ).addClass( 'pt-page-current' ),
+			outClass = 'pt-page-rotateFoldLeft', inClass = 'pt-page-rotateUnfoldRight';
+			
+		$currPage.addClass( outClass ).on( animEndEventName, function() {
+			$currPage.off( animEndEventName );
+			endCurrPage = true;
+			if( endNextPage ) {
+				onEndAnimation( $currPage, $prevPage );
+			}
+		} );
+		
+		$prevPage.addClass( inClass ).on( animEndEventName, function() {
+			$prevPage.off( animEndEventName );
+			endNextPage = true;
+			if( endCurrPage ) {
+				onEndAnimation( $currPage, $prevPage );
+			}
+		} );
+		
+		if( !support ) {
+			onEndAnimation( $currPage, $prevPage );
+		}
+	}
+
+	function onEndAnimation( $outpage, $inpage ) {
+		endCurrPage = false;
+		endNextPage = false;
+		resetPage( $outpage, $inpage );
+		isAnimating = false;
+	}
+
+	function resetPage( $outpage, $inpage ) {
+		$outpage.attr( 'class', $outpage.data( 'originalClassList' ) );
+		$inpage.attr( 'class', $inpage.data( 'originalClassList' ) + ' pt-page-current' );
+	}
+
+	init();
+
+		
+	$('#homebutton').click(function(){
+		if(!$('#homepage').hasClass('pt-page-current')){
+			gotoPage(0);
+		}
+		$('.active').each(function(){
+			$(this).closest('li').removeClass('active');
+		});
+		$(this).closest('li').addClass('active');
+	});
+	$('#page2button').click(function(){
+		if(!$('#page2').hasClass('pt-page-current')){
+			gotoPage(1);
+		}
+		$('.active').each(function(){
+			$(this).closest('li').removeClass('active');
+		});
+		$(this).closest('li').addClass('active');
+	});
+	$('#page3button').click(function(){
+		if(!$('#page3').hasClass('pt-page-current')){
+			gotoPage(2);
+		}
+		$('.active').each(function(){
+			$(this).closest('li').removeClass('active');
+		});
+		$(this).closest('li').addClass('active');
+	});
+	$('#page4button').click(function(){
+		if(!$('#page4').hasClass('pt-page-current')){
+			gotoPage(3);
+		}
+		$('.active').each(function(){
+			$(this).closest('li').removeClass('active');
+		});
+		$(this).closest('li').addClass('active');
+	});
+	</script>
 
 </body></html>
