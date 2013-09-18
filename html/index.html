@@ -250,7 +250,7 @@
 		}
 		
 		var $prevPage = $pages.eq( current ).addClass( 'pt-page-current' ),
-			outClass = 'pt-page-rotateOutNewspaper', inClass = 'pt-page-rotateInNewspaper';
+			outClass = 'pt-page-moveToLeftEasing', inClass = 'pt-page-moveFromRight';
 			
 		$currPage.addClass( outClass ).on( animEndEventName, function() {
 			$currPage.off( animEndEventName );
