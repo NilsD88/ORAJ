@@ -196,17 +196,6 @@ html {
     text-align: center;
   }
 }
-@media screen and (min-width: 1023px) {
-  #home-page-background {
-    background-size: 400px;
-    background-position-x: center;
-    background-position-y: 50;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-  }
-}
 @media screen and (min-width: 1400px) {
   #home-page-background {
     background-size: 500px;
@@ -254,13 +243,6 @@ html {
   }
 }
 @media screen and (min-width: 799px) {
-  #orange {
-    font-size: 60pt;
-    font-weight: bold;
-    padding-top: 170px;
-  }
-}
-@media screen and (min-width: 1400px) {
   #orange {
     font-size: 60pt;
     font-weight: bold;
