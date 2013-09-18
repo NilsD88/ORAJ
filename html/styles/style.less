@@ -39,6 +39,27 @@ html{
 		.page;
 	}
 	
+	@media screen and (min-width: 599){
+	  padding-top: 60px;
+	  .page;
+	  
+	}
+	
+  @media screen and (min-width: 679px){
+    padding-top:60px;
+    .page;
+  }	
+	
+	 @media screen and (min-width: 799px){
+     padding-top: 80px;
+    .page;
+  }
+  
+  @media screen and (min-width: 1023px){
+     padding-top:0px;
+     .page;
+  }
+	
 	@media screen and (min-width: 1400px){
 	  padding-top: 80px;
 	  .page;
@@ -49,6 +70,16 @@ html{
 		.page;
 	}
 	
+}
+
+
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+  @media (max-width: 767px){
+    margin-left:0px;
+    margin-right:0px;
+    
+  }
+  
 }
 
 .brand{
@@ -117,8 +148,19 @@ html{
 		text-align: center;
 	}
 	
-	@media screen and (min-width: 1023px){
-    background-size: 400px;
+	@media screen and (min-width: 767px){
+	  background-size: 280px;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+	}
+	
+	@media screen and (min-width: 799px){
+	  background-size: 500px;
     background-position-x: center;
     background-position-y: 50;
     background-repeat: no-repeat;
@@ -126,6 +168,17 @@ html{
     width: 100%;
     text-align: center;
   }
+
+
+@media screen and (min-width: 1023px){
+    background-size: 400px;
+    background-position-x: center;
+    background-position-y: 50;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 100%;
+    text-align: center;
+}
 	
 	@media screen and (min-width: 1400px){
     background-size: 500px;
@@ -147,8 +200,10 @@ html{
 		text-align: center;
 	}
 	
-	
-	
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom{
+  position:static;
 }
 
 #orange{
@@ -167,6 +222,13 @@ html{
 		font-size: 40pt;
 		padding-top: 50px;
 	}
+	
+	@media screen and (min-width: 799px){
+     font-size: 60pt;
+    font-weight:bold;
+    padding-top: 170px;
+  }
+  
 	
 	@media screen and (min-width: 1400px){
     font-size: 60pt;
@@ -199,6 +261,13 @@ html{
 		line-height:28px;
 		padding-top:10px;
 	}
+	
+	@media screen and (min-width: 799px){
+    font-size:42pt;
+    line-height:60px;
+    padding-top:30px;
+    font-weight:bold;
+  }
 	
 	@media screen and (min-width: 1400px){
     font-size:42pt;
