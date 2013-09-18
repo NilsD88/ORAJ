@@ -3,12 +3,10 @@
 @black: #000000;
 
 /* FUNCTIONS */
-
-.page () {
+.page (@maxHeight: 75%) {
   width:100%;
-  height:93.66%;
-  float: right;
-  overflow-x:hidden;
+  max-height:@maxHeight;
+  overflow:auto;
 }
 
 h1, h2{
@@ -17,6 +15,7 @@ h1, h2{
 
 body{
 	font-family: Arial, sans-serif;
+	background-color:@orangeText;
 }
 
 h2{
@@ -31,42 +30,43 @@ html{
 	/* MOST SMARTPHONES PORTRAIT */
 	@media screen and (min-width: 319px){
 		padding-top:25px;
-		.page;
+		.page(85.5%);
 	}
 	/* MOST SMARTPHONES landscape */
 	@media screen and (min-width: 479px){
-		padding-top:0px;
-		.page;
+		padding-top:30px;
+		.page(87.5%);
 	}
 	
 	@media screen and (min-width: 599){
 	  padding-top: 60px;
-	  .page;
+	  .page(87%);
 	}
 	
   @media screen and (min-width: 679px){
     padding-top:60px;
-    .page;
+    .page(83%);
   }	
 	
 	 @media screen and (min-width: 799px){
      padding-top: 80px;
-    .page;
+    .page(87%);
   }
   
   @media screen and (min-width: 1023px){
      padding-top:0px;
-     .page;
+     .page(95%);
   }
 	
 	@media screen and (min-width: 1400px){
 	  padding-top: 80px;
-	  .page;
+	  .page(84.1%);
 	}
 	
 	@media screen and (min-width: 1919px){
 		padding-top:100px;
-		.page;
+		height:93.66%;
+		.page(93.66%);
 	}
 	
 }
@@ -150,7 +150,7 @@ html{
 	@media screen and (min-width: 767px){
 	  background-size: 280px;
     background-position-x: center;
-    background-position-y: top;
+    background-position-y: 10;
     background-repeat: no-repeat;
     height:100%;
     width: 100%;
@@ -159,7 +159,17 @@ html{
 	}
 	
 	@media screen and (min-width: 799px){
-	  background-size: 500px;
+	  background-size: 400px;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 1023px){
+    background-size: 500px;
     background-position-x: center;
     background-position-y: 50;
     background-repeat: no-repeat;
@@ -168,7 +178,7 @@ html{
     text-align: center;
   }
 
-	@media screen and (min-width: 1400px){
+	@media screen and (min-width: 1399px){
     background-size: 500px;
     background-position-x: center;
     background-position-y: 50;
@@ -208,10 +218,22 @@ html{
 	/* MOST SMARTPHONES landscape */
 	@media screen and (min-width: 479px){
 		font-size: 40pt;
-		padding-top: 50px;
+		padding-top: 63px;
 	}
 	
+	 @media screen and (min-width: 767px){
+    font-size: 40pt;
+    padding-top: 65px;
+  }
+	
+	
 	@media screen and (min-width: 799px){
+     font-size: 55pt;
+    font-weight:bold;
+    padding-top: 95px;
+  }
+  
+  @media screen and (min-width: 1023px){
      font-size: 60pt;
     font-weight:bold;
     padding-top: 170px;
@@ -243,17 +265,29 @@ html{
 		padding-top:10px;
 	}
 	
+	@media screen and (min-width: 767px){
+	  font-size:21pt;
+    line-height:45px;
+	}
+	
 	@media screen and (min-width: 799px){
-    font-size:42pt;
-    line-height:60px;
+    font-size:28pt;
+    line-height:40px;
     padding-top:30px;
     font-weight:bold;
   }
+  
+  @media screen and (min-width: 1023px){
+    font-size:35pt;
+    line-height:50px;
+    padding-top:50px;
+    font-weight:bold;
+  }
 	
-	@media screen and (min-width: 1400px){
-    font-size:42pt;
+	@media screen and (min-width: 1399px){
+     font-size:43pt;
     line-height:60px;
-    padding-top:30px;
+    padding-top:40px;
     font-weight:bold;
   }
 	
@@ -269,16 +303,49 @@ html{
 #homeOrdinaLogo{
 	
 	
-	/* MOST SMARTPHONES PORTRAIT */
-	@media screen and (min-width: 479px){
-		padding-top: 10px;
-		width: 150px;
-		margin: 0 auto;
-	}
-	
-	@media screen and (min-width: 1919px){
-		padding-top: 50px;
-	}
+	@media screen and (min-width: 319px){
+   padding-top: 10px;
+    width: 150px;
+    margin: 0 auto;
+  }
+  
+  /* MOST SMARTPHONES PORTRAIT */
+  @media screen and (min-width: 479px){
+    padding-top: 10px;
+    width: 150px;
+    margin: 0 auto;
+  }
+  
+   @media screen and (min-width: 767px){
+    padding-top: 10px;
+    width: 150px;
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 799px){
+   padding-top: 25px;
+    width: 175px;
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 1023px){
+    padding-top: 30px;
+    width:200px;
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 1399px){
+     padding-top: 30px;
+    width:200px;
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 1919px){
+    padding-top: 30px;
+    width:200px;
+    margin: 0 auto;
+  }
+
 }
 
 #viewport{
@@ -550,6 +617,12 @@ body {
   
   @media screen and (min-width: 767px){
     background-image: url('../img/background/jobs-1440.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+  }
+  
+  @media screen and (min-width: 767px) and (orientation : portrait){
+    background-image: url('../img/background/jobs-1920.jpg');
     background-attachment:fixed;
     background-repeat: no-repeat;
   }

@@ -1,6 +1,6 @@
 <html lang="en"><head>
     <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
+    <title>Oracle/Java</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -180,7 +180,6 @@
 		</div>
 		</div>
 	</div>
-	
 	</div><!-- END VIEWPORT -->
 	
 
@@ -250,7 +249,7 @@
 		}
 		
 		var $prevPage = $pages.eq( current ).addClass( 'pt-page-current' ),
-			outClass = 'pt-page-moveToLeftEasing', inClass = 'pt-page-moveFromRight';
+			outClass = 'pt-page-rotateFoldLeft', inClass = 'pt-page-rotateUnfoldRight';
 			
 		$currPage.addClass( outClass ).on( animEndEventName, function() {
 			$currPage.off( animEndEventName );
@@ -292,21 +291,37 @@
 		if(!$('#homepage').hasClass('pt-page-current')){
 			gotoPage(0);
 		}
+		$('.active').each(function(){
+			$(this).closest('li').removeClass('active');
+		});
+		$(this).closest('li').addClass('active');
 	});
 	$('#page2button').click(function(){
 		if(!$('#page2').hasClass('pt-page-current')){
 			gotoPage(1);
 		}
+		$('.active').each(function(){
+			$(this).closest('li').removeClass('active');
+		});
+		$(this).closest('li').addClass('active');
 	});
 	$('#page3button').click(function(){
 		if(!$('#page3').hasClass('pt-page-current')){
 			gotoPage(2);
 		}
+		$('.active').each(function(){
+			$(this).closest('li').removeClass('active');
+		});
+		$(this).closest('li').addClass('active');
 	});
 	$('#page4button').click(function(){
 		if(!$('#page4').hasClass('pt-page-current')){
 			gotoPage(3);
 		}
+		$('.active').each(function(){
+			$(this).closest('li').removeClass('active');
+		});
+		$(this).closest('li').addClass('active');
 	});
 	</script>
 
