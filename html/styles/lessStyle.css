@@ -585,6 +585,7 @@ html {
     background-repeat: no-repeat;
   }
 }
+/* SPECIALIZATIONS*/
 #page3 {
   /* MOST SMARTPHONES PORTRAIT */
 
@@ -649,6 +650,93 @@ html {
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
+}
+/* JOBS*/
+.jobBlock {
+  margin: 50 0;
+}
+.badge {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background-color: white;
+  -webkit-box-shadow: 0px 1px 2px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 2px 3px rgba(0, 0, 0, 0.2);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.jobBlock h2 {
+  font-family: 'FuturaBold';
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.jobBlock img {
+  position: relative;
+  z-index: 100;
+}
+.leftBlock {
+  padding: 20;
+  padding-left: 80;
+}
+.leftBlock h2 {
+  margin-top: -40px;
+}
+.leftBlock img {
+  float: left;
+}
+.rightBlock {
+  padding: 20;
+  padding-right: 80;
+}
+.rightBlock > .badge {
+  float: right;
+}
+#javaLogoSoftware {
+  margin-left: -120px;
+  margin-top: -50px;
+  background-image: url('../img/jobs_javalogo.png');
+}
+#apexLogo {
+  margin-left: -120px;
+  margin-top: -50px;
+  background-image: url('../img/jobs_apexlogo.png');
+}
+#androidLogo {
+  margin-right: -120px;
+  margin-top: -50px;
+  background-image: url('../img/jobs_androidlogo.png');
+}
+#javaLogoArchitect {
+  margin-right: -120px;
+  margin-top: -50px;
+  background-image: url('../img/jobs_javalogo.png');
+}
+#javaSoftware,
+#javaArchitect {
+  background-color: rgba(51, 51, 51, 0.8);
+  color: white;
+}
+#javaSoftware h2,
+#javaArchitect h2 {
+  color: #e98300;
+}
+#mobileDeveloper {
+  background-color: rgba(233, 131, 0, 0.8);
+  color: #333333;
+}
+#mobileDeveloper h2 {
+  color: white;
+}
+#apexSoftware {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #e98300;
+}
+#apexSoftware h2 {
+  color: #333333;
 }
 #page4 {
   /* MOST SMARTPHONES PORTRAIT */

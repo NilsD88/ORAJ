@@ -1,6 +1,7 @@
 @orangeText: #E98300;
 @gray: #EEEEEE;
 @black: #000000;
+@darkGray:#333333;
 
 /* FUNCTIONS */
 .page (@maxHeight: 75%) {
@@ -535,6 +536,8 @@ body {
     background-repeat: no-repeat;
   }
 }
+
+/* SPECIALIZATIONS*/
 #page3{
 	/* MOST SMARTPHONES PORTRAIT */
   @media screen and (min-width: 319px){
@@ -589,6 +592,129 @@ body {
     background-repeat: no-repeat;
   }
 }
+
+/* JOBS*/
+
+.transparent(@R; @G; @B){
+  background-color: rgba(@R, @G, @B, 0.8);
+}
+
+.jobBlock{
+  margin: 50 0;
+}
+
+.badge{
+  padding-left: 0px;
+  padding-right: 0px;
+  width:100px;
+  height:100px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background-color:white;
+  -webkit-box-shadow:  0px 1px 2px 3px rgba(0, 0, 0, 0.2);     
+   box-shadow:  0px 1px 2px 3px rgba(0, 0, 0, 0.2);
+   background-position:center;
+   background-repeat: no-repeat;
+  
+}
+
+.jobBlock h2{
+  font-family: 'FuturaBold';
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.jobBlock img{
+  position: relative;
+  z-index:100;
+}
+
+.leftBlock{
+  padding: 20;
+  padding-left: 80;
+}
+
+.leftBlock h2{
+  margin-top:-40px;
+}
+
+.leftBlock img{
+  float:left;
+}
+
+.rightBlock{
+  
+  padding: 20;
+  padding-right: 80; 
+}
+
+.rightBlock > .badge{
+  float:right;
+}
+
+.leftBadge(){
+   margin-left: -120px;
+  margin-top: -50px;
+}
+
+#javaLogoSoftware{
+  .leftBadge();
+  background-image: url('../img/jobs_javalogo.png');
+}
+
+#apexLogo{
+  .leftBadge();
+   background-image: url('../img/jobs_apexlogo.png');
+}
+
+.rightBadge(){
+  margin-right: -120px;
+  margin-top: -50px;
+}
+
+#androidLogo{
+  .rightBadge();
+   background-image: url('../img/jobs_androidlogo.png');
+}
+
+#javaLogoArchitect{
+  .rightBadge();
+  background-image: url('../img/jobs_javalogo.png');
+}
+
+
+
+
+#javaSoftware, #javaArchitect{
+  .transparent(51;51;51);
+  color: white;
+}
+
+#javaSoftware h2, #javaArchitect h2{
+  color: @orangeText;
+}
+
+
+#mobileDeveloper{
+  .transparent(233;131;0);
+  color: @darkGray;
+}
+
+#mobileDeveloper h2{
+  color:white;
+}
+
+#apexSoftware{
+   .transparent(255;255;255);
+  color:@orangeText;
+}
+
+#apexSoftware h2{
+  color: @darkGray;
+}
+
+
 #page4{
 	/* MOST SMARTPHONES PORTRAIT */
   @media screen and (min-width: 319px){
