@@ -652,8 +652,15 @@ html {
   }
 }
 /* JOBS*/
-.jobBlock {
-  margin: 50 0;
+@media screen and (min-width: 319px) {
+  .jobBlock {
+    margin: -20 0 50 0;
+  }
+}
+@media screen and (min-width: 767px) {
+  .jobBlock {
+    margin: 50 0;
+  }
 }
 .badge {
   padding-left: 0px;
@@ -678,42 +685,173 @@ html {
   position: relative;
   z-index: 100;
 }
-.leftBlock {
-  padding: 20;
-  padding-left: 80;
+@media screen and (min-width: 319px) {
+  .leftBlock {
+    padding: 20;
+  }
 }
-.leftBlock h2 {
-  margin-top: -40px;
+@media screen and (min-width: 767px) {
+  .leftBlock {
+    padding: 20;
+    padding-left: 80;
+  }
+}
+@media screen and (min-width: 319px) {
+  .leftBlock h2 {
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .leftBlock h2 {
+    margin-top: -40px;
+  }
 }
 .leftBlock img {
   float: left;
 }
-.rightBlock {
-  padding: 20;
-  padding-right: 80;
+@media screen and (min-width: 319px) {
+  .rightBlock {
+    padding: 20;
+  }
+}
+@media screen and (min-width: 767px) {
+  .rightBlock {
+    padding: 20;
+    padding-right: 80;
+  }
 }
 .rightBlock > .badge {
   float: right;
+}
+#jobsPageTitle {
+  color: #e98300;
+}
+@media screen and (min-width: 319px) {
+  #jobsPageTitle {
+    margin-left: 40%;
+  }
+}
+@media screen and (min-width: 767px) {
+  #jobsPageTitle {
+    display: none;
+  }
+}
+#jobsPageTitle h2 {
+  font-family: 'FuturaBold';
+  margin-left: 15px;
+  margin-bottom: 25px;
 }
 #javaLogoSoftware {
   margin-left: -120px;
   margin-top: -50px;
   background-image: url('../img/jobs_javalogo.png');
 }
+@media screen and (min-width: 319px) {
+  #javaLogoSoftware {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  #javaLogoSoftware {
+    display: block;
+  }
+}
+#javaLogoSoftwareTop {
+  background-image: url('../img/jobs_javalogo.png');
+}
+@media screen and (min-width: 319px) {
+  #javaLogoSoftwareTop {
+    margin-left: 40%;
+  }
+}
+@media screen and (min-width: 767px) {
+  #javaLogoSoftwareTop {
+    display: none;
+  }
+}
 #apexLogo {
   margin-left: -120px;
   margin-top: -50px;
   background-image: url('../img/jobs_apexlogo.png');
+}
+@media screen and (min-width: 319px) {
+  #apexLogo {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  #apexLogo {
+    display: block;
+  }
+}
+#apexLogoTop {
+  background-image: url('../img/jobs_apexlogo.png');
+}
+@media screen and (min-width: 319px) {
+  #apexLogoTop {
+    margin-left: 40%;
+  }
+}
+@media screen and (min-width: 767px) {
+  #apexLogoTop {
+    display: none;
+  }
 }
 #androidLogo {
   margin-right: -120px;
   margin-top: -50px;
   background-image: url('../img/jobs_androidlogo.png');
 }
+@media screen and (min-width: 319px) {
+  #androidLogo {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  #androidLogo {
+    display: block;
+  }
+}
+#androidLogoTop {
+  background-image: url('../img/jobs_androidlogo.png');
+}
+@media screen and (min-width: 319px) {
+  #androidLogoTop {
+    margin-left: 40%;
+  }
+}
+@media screen and (min-width: 767px) {
+  #androidLogoTop {
+    display: none;
+  }
+}
+#javaLogoArchitectTop {
+  background-image: url('../img/jobs_javalogo.png');
+}
+@media screen and (min-width: 319px) {
+  #javaLogoArchitectTop {
+    margin-left: 40%;
+  }
+}
+@media screen and (min-width: 767px) {
+  #javaLogoArchitectTop {
+    display: none;
+  }
+}
 #javaLogoArchitect {
   margin-right: -120px;
   margin-top: -50px;
   background-image: url('../img/jobs_javalogo.png');
+}
+@media screen and (min-width: 319px) {
+  #javaLogoArchitect {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  #javaLogoArchitect {
+    display: block;
+  }
 }
 #javaSoftware,
 #javaArchitect {
