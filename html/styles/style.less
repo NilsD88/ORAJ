@@ -11,6 +11,16 @@
   overflow-x: hidden;
 }
 
+.homepagebackground(@backgroundSize: 400px; @heightPercent: 100%){
+  background-size: @backgroundSize;
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  height: @heightPercent;
+  width: 100%;
+  text-align: center;
+}
+
 .transparent(@R; @G; @B){
   background-color: rgba(@R, @G, @B, 0.8);
 }
@@ -35,24 +45,28 @@ html{
 		
 	/* MOST SMARTPHONES PORTRAIT */
 	@media screen and (min-width: 319px){
-		padding-top:25px;
-		.page(85.5%);
+		padding-top:30px;
+		.page(89.5%);
 	}
 	/* MOST SMARTPHONES landscape */
 	@media screen and (min-width: 479px){
 		padding-top:30px;
-		.page(87.5%);
+		.page(89.5%);
 	}
 	
-	@media screen and (min-width: 599){
+	@media screen and (min-width: 599px){
 	  padding-top: 60px;
 	  .page(87.5%);
-	}
-	
+  }
   @media screen and (min-width: 679px){
     padding-top:60px;
     .page(87.5%);
   }	
+  
+  @media screen and (min-width: 767px) and (min-height: 550px){
+    padding-top: 80px;
+    .page(87%);
+  }
 	
 	 @media screen and (min-width: 797px){
      padding-top: 80px;
@@ -60,14 +74,9 @@ html{
   }
   
   @media screen and (min-width: 1023px){
-     padding-top:20px;
+     padding-top:40px;
      .page(95%);
   }
-	
-	@media screen and (min-width: 1400px){
-	  padding-top: 20px;
-	  .page(95%);
-	}
 	
 	@media screen and (min-width: 1919px){
 		padding-top:100px;
@@ -94,7 +103,7 @@ html{
 		background-image: url('../img/oraj_logo_small.png');
 		background-repeat: no-repeat;
 		background-position:center left;
-		background-size: 150px;
+		background-size: 110px;
 		height: 15px;
 		width: 150px;
 	}
@@ -132,76 +141,35 @@ html{
 
 	/* MOST SMARTPHONES PORTRAIT */
 	@media screen and (min-width: 319px){
-		background-size: 280px;
-		background-position-x: center;
-		background-position-y: top;
-		background-repeat: no-repeat;
-		height:100%;
-		width: 90%;
-		margin: auto;
-		text-align: center;
+		.homepagebackground(250px; 96%);
 	}
 	/* MOST SMARTPHONES landscape */
 	@media screen and (min-width: 479px){
-		background-size: 280px;
-		background-position-x: center;
-		background-position-y: top;
-		background-repeat: no-repeat;
-		height:100%;
-		width: 90%;
-    margin: auto;
-		text-align: center;
+		.homepagebackground(280px; 96%);
 	}
 	
 	@media screen and (min-width: 767px){
-	  background-size: 280px;
-    background-position-x: center;
-    background-position-y: 10;
-    background-repeat: no-repeat;
-    height:100%;
-    width: 100%;
-    margin: auto;
-    text-align: center;
+	  .homepagebackground(280px; 96%);
 	}
 	
+	@media screen and (min-width: 767px) and (min-height: 600px){
+    .homepagebackground(400px; 98%);
+  }
+	
 	@media screen and (min-width: 799px){
-	  background-size: 400px;
-    background-position-x: center;
-    background-position-y: top;
-    background-repeat: no-repeat;
-    height:100%;
-    width: 100%;
-    text-align: center;
+	  .homepagebackground(400px);
   }
   
   @media screen and (min-width: 1023px){
-    background-size: 500px;
-    background-position-x: center;
-    background-position-y: 50;
-    background-repeat: no-repeat;
-    height:100%;
-    width: 100%;
-    text-align: center;
+    .homepagebackground(500px);
   }
 
 	@media screen and (min-width: 1399px){
-    background-size: 500px;
-    background-position-x: center;
-    background-position-y: 50;
-    background-repeat: no-repeat;
-    height:100%;
-    width: 100%;
-    text-align: center;
+    .homepagebackground(500px);
   }
 	
 	@media screen and (min-width: 1919px){
-		background-size: 600px;
-		background-position-x: center;
-		background-position-y: 50;
-		background-repeat: no-repeat;
-		height:100%;
-		width: 100%;
-		text-align: center;
+		.homepagebackground(600px);
 	}
 	
 }
@@ -218,7 +186,7 @@ html{
 	/* MOST SMARTPHONES PORTRAIT */
 	@media screen and (min-width: 319px){
 		font-size: 40pt;
-		padding-top: 70px;
+		padding-top: 60px;
 	}
 	
 	/* MOST SMARTPHONES landscape */
@@ -229,9 +197,13 @@ html{
 	
 	 @media screen and (min-width: 767px){
     font-size: 40pt;
-    padding-top: 65px;
+    padding-top: 55px;
   }
 	
+	@media screen and (min-width: 767px) and (min-height: 600px){
+    font-size: 55pt;
+    padding-top: 95px;
+  }
 	
 	@media screen and (min-width: 799px){
      font-size: 55pt;
@@ -242,7 +214,7 @@ html{
   @media screen and (min-width: 1023px){
      font-size: 60pt;
     font-weight:bold;
-    padding-top: 170px;
+    padding-top: 120px;
   }
   
 	@media screen and (min-width: 1919px){
@@ -266,15 +238,22 @@ html{
 	
 	/* MOST SMARTPHONES PORTRAIT */
 	@media screen and (min-width: 479px){
-		font-size:18pt;
+		font-size:21pt;
 		line-height:28px;
 		padding-top:10px;
 	}
 	
 	@media screen and (min-width: 767px){
-	  font-size:21pt;
-    line-height:45px;
+	  font-size:23pt;
+    line-height:30px;
 	}
+	
+	@media screen and (min-width: 767px) and (min-height: 600px){
+    font-size:28pt;
+    line-height:40px;
+    padding-top:30px;
+    font-weight:bold;
+  }
 	
 	@media screen and (min-width: 799px){
     font-size:28pt;
@@ -284,9 +263,9 @@ html{
   }
   
   @media screen and (min-width: 1023px){
-    font-size:35pt;
-    line-height:50px;
-    padding-top:50px;
+    font-size:43pt;
+    line-height:60px;
+    padding-top:40px;
     font-weight:bold;
   }
 	
@@ -325,6 +304,12 @@ html{
    @media screen and (min-width: 767px){
     padding-top: 10px;
     width: 150px;
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 767px) and (min-height: 600px){
+    padding-top: 25px;
+    width: 175px;
     margin: 0 auto;
   }
   
@@ -422,58 +407,76 @@ body {
 }
 
 #homepage{
-	
+	background-attachment:fixed;
+   background-repeat: no-repeat;
+   
 	/* MOST SMARTPHONES PORTRAIT */
 	@media screen and (min-width: 319px){
-		background-image: url('../img/background/home-800.jpg');
-		background-attachment:fixed;
-		background-repeat: no-repeat;
+		background-image: url('../img/background/home-640.jpg');
 	}
 	
-	@media screen and (min-width: 319px){
+	@media screen and (min-width: 319px) and (min-height:450px){
     background-image: url('../img/background/home-1024.jpg');
-    background-attachment:fixed;
-    background-repeat: no-repeat;
+  }
+  
+  @media screen and (min-width: 319px) and (min-height:700px){
+    background-image: url('../img/background/home-1280.jpg');
+  }
+  
+  @media screen and (min-width: 319px) and (min-height:900px){
+    background-image: url('../img/background/home-1440.jpg');
   }
 	
 	@media screen and (min-width:479px){
-		background-image: url('../img/background/home-1440.jpg');
-		background-attachment:fixed;
-		background-repeat: no-repeat;
+		background-image: url('../img/background/home-640.jpg');
 	}
+	
+	@media screen and (min-width:479px) and (min-height:450px){
+	  background-image: url('../img/background/home-1024.jpg');
+	}
+	
+	@media screen and (min-width:479px) and (min-height:700px){
+    background-image: url('../img/background/home-1280.jpg');
+  }
+  
+  @media screen and (min-width:479px) and (min-height:900px){
+    background-image: url('../img/background/home-1440.jpg');
+  }
 	
 	@media screen and (min-width:639px){
 		background-image: url('../img/background/home-800.jpg');
-		background-attachment:fixed;
-		background-repeat: no-repeat;
 	}
 	
+	@media screen and (min-width:639px) and (min-height:550px){
+    background-image: url('../img/background/home-1280.jpg');
+  }
+	
 	@media screen and (min-width: 767px){
-		background-image: url('../img/background/home-1440.jpg');
-		background-attachment:fixed;
-		background-repeat: no-repeat;
+		background-image: url('../img/background/home-800.jpg');
 	}
+	
+	@media screen and (min-width: 767px) and (min-height:550px){
+    background-image: url('../img/background/home-1440.jpg');
+  }
+  
+  @media screen and (min-width:799px){
+    background-image: url('../img/background/home-1280.jpg');
+  }
 		
 	@media screen and (min-width:1280px){
 		background-image: url('../img/background/home-1440.jpg');
-		background-attachment:fixed;
-		background-repeat: no-repeat;
 	}
 	
 	@media screen and (min-width:1439px){
     background-image: url('../img/background/home-1733.jpg');
-    background-attachment:fixed;
   }
   
   @media screen and (min-width:1732px){
     background-image: url('../img/background/home-1920.jpg');
-    background-attachment:fixed;
   }
 	
 	@media screen and (min-width:1919px){
 		background-image: url('../img/background/home-2560.jpg');
-		background-attachment:fixed;
-		background-repeat: no-repeat;
 	}
 }
 
