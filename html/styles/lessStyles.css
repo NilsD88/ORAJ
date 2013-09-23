@@ -71,7 +71,7 @@ html {
   .page {
     padding-top: 20px;
     width: 100%;
-    max-height: 95%;
+    max-height: 84.1%;
     overflow: auto;
   }
 }
@@ -80,7 +80,7 @@ html {
     padding-top: 100px;
     height: 93.66%;
     width: 100%;
-    max-height: 85.1%;
+    max-height: 93.66%;
     overflow: auto;
   }
 }
@@ -416,12 +416,11 @@ html {
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
-  background-color: #333333;
+  background-color: #000000;
 }
 .navbar-fixed-top .navbar-inner,
 .navbar-static-top .navbar-inner {
   border-width: 0 0 2px;
-  border-color: #333333;
 }
 .navbar .nav {
   float: right;
@@ -520,266 +519,6 @@ html {
 /* ABOUT ORAJ */
 #about-oraj {
   margin-top: 0px;
-}
-@media screen and (min-width: 319) {
-  
-}
-@media screen and (min-width: 767) {
-  #bumsContainer {
-    height: 95%;
-    position: absolute;
-    bottom: 0;
-  }
-}
-@media screen and (min-width: 1023) {
-  #bumsContainer {
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-  }
-}
-@media screen and (min-width: 1399) {
-  #bumsContainer {
-    height: 85%;
-    position: absolute;
-    bottom: 0;
-  }
-}
-@media screen and (min-width: 319) {
-  #aboutText {
-    background-color: rgba(51, 51, 51, 0.8);
-    margin-top: 12%;
-    width: 95%
-      padding:10;
-  }
-}
-@media screen and (min-width: 767) {
-  #aboutText {
-    background-color: rgba(51, 51, 51, 0.8);
-    margin-top: 12%;
-    width: 87%;
-    float: right;
-  }
-}
-@media screen and (min-width: 1399) {
-  #aboutText {
-    margin-top: 17.4%;
-  }
-}
-@media screen and (min-width: 767) {
-  #aboutText h2,
-  #aboutText p {
-    margin-left: 300px;
-    padding-right: 50px;
-  }
-}
-#aboutText p {
-  color: white;
-  padding-bottom: 20px;
-}
-#aboutText h2 {
-  font-family: 'FuturaBold';
-  color: #e98300;
-  font-size: 38px;
-  margin-top: 30px;
-}
-@media screen and (min-width: 767) {
-  #bottomRow {
-    margin-top: 50px;
-  }
-}
-@media screen and (min-width: 1023) {
-  #bottomRow {
-    margin-top: 20px;
-  }
-}
-#text1 {
-  height: 100;
-}
-#text2 {
-  height: 100;
-}
-#text3 {
-  height: 100;
-}
-#text4 {
-  height: 100;
-}
-#bumNames {
-  color: #e98300;
-  margin-left: 0px;
-  width: 70.9%%;
-  text-align: center;
-  line-height: 75px;
-}
-@media screen and (min-width: 319) {
-  #bumNames {
-    width: 80%;
-  }
-}
-@media screen and (min-width: 767) {
-  #bumNames {
-    width: 70.9%;
-  }
-}
-#bumNames h2 {
-  font-family: 'FuturaBold';
-}
-@media screen and (min-width: 319) {
-  #bumNames h2 {
-    font-size: 20px;
-  }
-}
-@media screen and (min-width: 767) {
-  #bumNames h2 {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 1023) {
-  #bumNames h2 {
-    font-size: 22px;
-  }
-}
-@media screen and (min-width: 1399) {
-  #bumNames h2 {
-    font-size: 28px;
-  }
-}
-#jurgenArrow {
-  background-image: url('../img/arrow_jurgen.png');
-  background-repeat: no-repeat;
-  height: 108px;
-}
-@media screen and (min-width: 319) {
-  #jurgenArrow {
-    float: left;
-    width: 20%;
-  }
-}
-@media screen and (min-width: 767) {
-  #jurgenArrow {
-    float: right;
-    width: inherit;
-    margin-left: 0px;
-    margin-top: 35px;
-  }
-}
-#johanArrow {
-  background-image: url('../img/arrow_johan.png');
-  background-repeat: no-repeat;
-  height: 108px;
-}
-@media screen and (min-width: 319) {
-  #johanArrow {
-    float: right;
-    width: 20%;
-  }
-}
-@media screen and (min-width: 767) {
-  #johanArrow {
-    width: inherit;
-    margin-left: -40px;
-    margin-top: 75px;
-  }
-}
-#bumPicture {
-  background-image: url('../img/johan_jurgen.png');
-  background-repeat: no-repeat;
-  height: 499px;
-}
-@media screen and (min-width: 319) {
-  #bumPicture {
-    position: absolute;
-    min-width: 400px;
-    margin-left: -75px;
-  }
-}
-@media screen and (min-width: 767) {
-  #bumPicture {
-    min-width: 400px;
-    margin-left: -75px;
-  }
-}
-@media screen and (min-width: 980) {
-  #bumPicture {
-    min-width: 400px;
-    bottom: 0;
-    margin-left: -20px;
-  }
-}
-@media screen and (min-width: 1023) {
-  #bumPicture {
-    margin-left: -40px;
-    bottom: -100;
-  }
-}
-@media screen and (min-width: 1200) {
-  #bumPicture {
-    margin-left: 0px;
-    bottom: 0;
-  }
-}
-@media screen and (min-width: 1399) {
-  #bumPicture {
-    margin-left: 0px;
-    bottom: 0;
-  }
-}
-@media screen and (min-width: 319) {
-  #unitManagers {
-    color: #333333;
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 22px;
-  }
-}
-@media screen and (min-width: 767) {
-  #unitManagers {
-    font-size: 35px;
-  }
-}
-@media screen and (min-width: 1023) {
-  #unitManagers {
-    margin-left: 0px;
-  }
-}
-#unitManagers h2 {
-  font-family: 'FuturaBold';
-}
-@media screen and (min-width: 1023) {
-  #unitManagers h2 {
-    font-size: 28px;
-  }
-}
-@media screen and (min-width: 1399) {
-  #unitManagers h2 {
-    font-size: 38px;
-  }
-}
-@media screen and (min-width: 1023) {
-  #textBlock {
-    margin-top: 30px;
-  }
-}
-#textBlock p {
-  border-left: 1px solid #e98300;
-  padding-left: 5px;
-  font-size: 12px;
-}
-@media screen and (min-width: 767) {
-  .number h2 {
-    font-size: 55px;
-  }
-}
-@media screen and (min-width: 1023) {
-  .number h2 {
-    font-size: 65px;
-  }
-}
-@media screen and (min-width: 1399) {
-  .number h2 {
-    font-size: 80px;
-  }
 }
 #page2 {
   /* MOST SMARTPHONES PORTRAIT */
@@ -913,15 +652,8 @@ html {
   }
 }
 /* JOBS*/
-@media screen and (min-width: 319px) {
-  .jobBlock {
-    margin: -20 0 50 0;
-  }
-}
-@media screen and (min-width: 767px) {
-  .jobBlock {
-    margin: 50 0;
-  }
+.jobBlock {
+  margin: 50 0;
 }
 .badge {
   padding-left: 0px;
@@ -946,173 +678,42 @@ html {
   position: relative;
   z-index: 100;
 }
-@media screen and (min-width: 319px) {
-  .leftBlock {
-    padding: 20;
-  }
+.leftBlock {
+  padding: 20;
+  padding-left: 80;
 }
-@media screen and (min-width: 767px) {
-  .leftBlock {
-    padding: 20;
-    padding-left: 80;
-  }
-}
-@media screen and (min-width: 319px) {
-  .leftBlock h2 {
-    margin: 0px;
-  }
-}
-@media screen and (min-width: 767px) {
-  .leftBlock h2 {
-    margin-top: -40px;
-  }
+.leftBlock h2 {
+  margin-top: -40px;
 }
 .leftBlock img {
   float: left;
 }
-@media screen and (min-width: 319px) {
-  .rightBlock {
-    padding: 20;
-  }
-}
-@media screen and (min-width: 767px) {
-  .rightBlock {
-    padding: 20;
-    padding-right: 80;
-  }
+.rightBlock {
+  padding: 20;
+  padding-right: 80;
 }
 .rightBlock > .badge {
   float: right;
-}
-#jobsPageTitle {
-  color: #e98300;
-}
-@media screen and (min-width: 319px) {
-  #jobsPageTitle {
-    margin-left: 40%;
-  }
-}
-@media screen and (min-width: 767px) {
-  #jobsPageTitle {
-    display: none;
-  }
-}
-#jobsPageTitle h2 {
-  font-family: 'FuturaBold';
-  margin-left: 15px;
-  margin-bottom: 25px;
 }
 #javaLogoSoftware {
   margin-left: -120px;
   margin-top: -50px;
   background-image: url('../img/jobs_javalogo.png');
 }
-@media screen and (min-width: 319px) {
-  #javaLogoSoftware {
-    display: none;
-  }
-}
-@media screen and (min-width: 767px) {
-  #javaLogoSoftware {
-    display: block;
-  }
-}
-#javaLogoSoftwareTop {
-  background-image: url('../img/jobs_javalogo.png');
-}
-@media screen and (min-width: 319px) {
-  #javaLogoSoftwareTop {
-    margin-left: 40%;
-  }
-}
-@media screen and (min-width: 767px) {
-  #javaLogoSoftwareTop {
-    display: none;
-  }
-}
 #apexLogo {
   margin-left: -120px;
   margin-top: -50px;
   background-image: url('../img/jobs_apexlogo.png');
-}
-@media screen and (min-width: 319px) {
-  #apexLogo {
-    display: none;
-  }
-}
-@media screen and (min-width: 767px) {
-  #apexLogo {
-    display: block;
-  }
-}
-#apexLogoTop {
-  background-image: url('../img/jobs_apexlogo.png');
-}
-@media screen and (min-width: 319px) {
-  #apexLogoTop {
-    margin-left: 40%;
-  }
-}
-@media screen and (min-width: 767px) {
-  #apexLogoTop {
-    display: none;
-  }
 }
 #androidLogo {
   margin-right: -120px;
   margin-top: -50px;
   background-image: url('../img/jobs_androidlogo.png');
 }
-@media screen and (min-width: 319px) {
-  #androidLogo {
-    display: none;
-  }
-}
-@media screen and (min-width: 767px) {
-  #androidLogo {
-    display: block;
-  }
-}
-#androidLogoTop {
-  background-image: url('../img/jobs_androidlogo.png');
-}
-@media screen and (min-width: 319px) {
-  #androidLogoTop {
-    margin-left: 40%;
-  }
-}
-@media screen and (min-width: 767px) {
-  #androidLogoTop {
-    display: none;
-  }
-}
-#javaLogoArchitectTop {
-  background-image: url('../img/jobs_javalogo.png');
-}
-@media screen and (min-width: 319px) {
-  #javaLogoArchitectTop {
-    margin-left: 40%;
-  }
-}
-@media screen and (min-width: 767px) {
-  #javaLogoArchitectTop {
-    display: none;
-  }
-}
 #javaLogoArchitect {
   margin-right: -120px;
   margin-top: -50px;
   background-image: url('../img/jobs_javalogo.png');
-}
-@media screen and (min-width: 319px) {
-  #javaLogoArchitect {
-    display: none;
-  }
-}
-@media screen and (min-width: 767px) {
-  #javaLogoArchitect {
-    display: block;
-  }
 }
 #javaSoftware,
 #javaArchitect {
