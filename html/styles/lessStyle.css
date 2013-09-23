@@ -35,11 +35,11 @@ html {
     overflow: auto;
   }
 }
-@media screen and (min-width: 599) {
+@media screen and (min-width: 599px) {
   .page {
     padding-top: 60px;
     width: 100%;
-    max-height: 87%;
+    max-height: 86.5%;
     overflow: auto;
   }
 }
@@ -47,7 +47,15 @@ html {
   .page {
     padding-top: 60px;
     width: 100%;
-    max-height: 83%;
+    max-height: 85.5%;
+    overflow: auto;
+  }
+}
+@media screen and (min-width: 767px) and (min-height: 550px) {
+  .page {
+    padding-top: 80px;
+    width: 100%;
+    max-height: 87%;
     overflow: auto;
   }
 }
@@ -61,15 +69,7 @@ html {
 }
 @media screen and (min-width: 1023px) {
   .page {
-    padding-top: 20px;
-    width: 100%;
-    max-height: 95%;
-    overflow: auto;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .page {
-    padding-top: 20px;
+    padding-top: 40px;
     width: 100%;
     max-height: 95%;
     overflow: auto;
@@ -101,7 +101,7 @@ html {
     background-image: url('../img/oraj_logo_small.png');
     background-repeat: no-repeat;
     background-position: center left;
-    background-size: 150px;
+    background-size: 110px;
     height: 15px;
     width: 150px;
   }
@@ -151,7 +151,6 @@ html {
     background-repeat: no-repeat;
     height: 100%;
     width: 90%;
-    margin: auto;
     text-align: center;
   }
 }
@@ -161,9 +160,8 @@ html {
     background-position-x: center;
     background-position-y: top;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 90%;
-    margin: auto;
+    height: 96%;
+    width: 100%;
     text-align: center;
   }
 }
@@ -171,11 +169,21 @@ html {
   #home-page-background {
     background-size: 280px;
     background-position-x: center;
-    background-position-y: 10;
+    background-position-y: top;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 96%;
     width: 100%;
-    margin: auto;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 767px) and (min-height: 550px) {
+  #home-page-background {
+    background-size: 400px;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    height: 98%;
+    width: 100%;
     text-align: center;
   }
 }
@@ -194,7 +202,7 @@ html {
   #home-page-background {
     background-size: 500px;
     background-position-x: center;
-    background-position-y: 50;
+    background-position-y: top;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -205,7 +213,7 @@ html {
   #home-page-background {
     background-size: 500px;
     background-position-x: center;
-    background-position-y: 50;
+    background-position-y: top;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -216,7 +224,7 @@ html {
   #home-page-background {
     background-size: 600px;
     background-position-x: center;
-    background-position-y: 50;
+    background-position-y: top;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -253,6 +261,12 @@ html {
     padding-top: 65px;
   }
 }
+@media screen and (min-width: 767px) and (min-height: 550px) {
+  #orange {
+    font-size: 55pt;
+    padding-top: 95px;
+  }
+}
 @media screen and (min-width: 799px) {
   #orange {
     font-size: 55pt;
@@ -264,7 +278,7 @@ html {
   #orange {
     font-size: 60pt;
     font-weight: bold;
-    padding-top: 170px;
+    padding-top: 120px;
   }
 }
 @media screen and (min-width: 1919px) {
@@ -302,6 +316,14 @@ html {
     line-height: 45px;
   }
 }
+@media screen and (min-width: 767px) and (min-height: 550px) {
+  #homeText {
+    font-size: 28pt;
+    line-height: 40px;
+    padding-top: 30px;
+    font-weight: bold;
+  }
+}
 @media screen and (min-width: 799px) {
   #homeText {
     font-size: 28pt;
@@ -312,9 +334,9 @@ html {
 }
 @media screen and (min-width: 1023px) {
   #homeText {
-    font-size: 35pt;
-    line-height: 50px;
-    padding-top: 50px;
+    font-size: 43pt;
+    line-height: 60px;
+    padding-top: 40px;
     font-weight: bold;
   }
 }
@@ -356,6 +378,13 @@ html {
   #homeOrdinaLogo {
     padding-top: 10px;
     width: 150px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 767px) and (min-height: 550px) {
+  #homeOrdinaLogo {
+    padding-top: 25px;
+    width: 175px;
     margin: 0 auto;
   }
 }
@@ -484,9 +513,30 @@ html {
     background-repeat: no-repeat;
   }
 }
+@media screen and (min-width: 639px) and (min-height: 550px) {
+  #homepage {
+    background-image: url('../img/background/home-1280.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
 @media screen and (min-width: 767px) {
   #homepage {
+    background-image: url('../img/background/home-800.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 767px) and (min-height: 550px) {
+  #homepage {
     background-image: url('../img/background/home-1440.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 799px) {
+  #homepage {
+    background-image: url('../img/background/home-1280.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
   }

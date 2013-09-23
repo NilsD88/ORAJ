@@ -10,6 +10,16 @@
   overflow:auto;
 }
 
+.homepagebackground(@backgroundSize: 400px; @widthPercent: 100%; @heightPercent: 100%){
+  background-size: @backgroundSize;
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  height: @heightPercent;
+  width: @widthPercent;
+  text-align: center;
+}
+
 .transparent(@R; @G; @B){
   background-color: rgba(@R, @G, @B, 0.8);
 }
@@ -43,15 +53,20 @@ html{
 		.page(87.5%);
 	}
 	
-	@media screen and (min-width: 599){
+	@media screen and (min-width: 599px){
 	  padding-top: 60px;
-	  .page(87%);
+	  .page(86.5%);
 	}
 	
   @media screen and (min-width: 679px){
     padding-top:60px;
-    .page(83%);
+    .page(85.5%);
   }	
+  
+  @media screen and (min-width: 767px) and (min-height: 550px){
+    padding-top: 80px;
+    .page(87%);
+  }
 	
 	 @media screen and (min-width: 799px){
      padding-top: 80px;
@@ -59,14 +74,9 @@ html{
   }
   
   @media screen and (min-width: 1023px){
-     padding-top:20px;
+     padding-top:40px;
      .page(95%);
   }
-	
-	@media screen and (min-width: 1400px){
-	  padding-top: 20px;
-	  .page(95%);
-	}
 	
 	@media screen and (min-width: 1919px){
 		padding-top:100px;
@@ -93,7 +103,7 @@ html{
 		background-image: url('../img/oraj_logo_small.png');
 		background-repeat: no-repeat;
 		background-position:center left;
-		background-size: 150px;
+		background-size: 110px;
 		height: 15px;
 		width: 150px;
 	}
@@ -131,76 +141,35 @@ html{
 
 	/* MOST SMARTPHONES PORTRAIT */
 	@media screen and (min-width: 319px){
-		background-size: 280px;
-		background-position-x: center;
-		background-position-y: top;
-		background-repeat: no-repeat;
-		height:100%;
-		width: 90%;
-		margin: auto;
-		text-align: center;
+		.homepagebackground(280px; 90%);
 	}
 	/* MOST SMARTPHONES landscape */
 	@media screen and (min-width: 479px){
-		background-size: 280px;
-		background-position-x: center;
-		background-position-y: top;
-		background-repeat: no-repeat;
-		height:100%;
-		width: 90%;
-    margin: auto;
-		text-align: center;
+		.homepagebackground(280px; 100%; 96%);
 	}
 	
 	@media screen and (min-width: 767px){
-	  background-size: 280px;
-    background-position-x: center;
-    background-position-y: 10;
-    background-repeat: no-repeat;
-    height:100%;
-    width: 100%;
-    margin: auto;
-    text-align: center;
+	  .homepagebackground(280px; 100%; 96%);
 	}
 	
+	@media screen and (min-width: 767px) and (min-height: 550px){
+    .homepagebackground(400px; 100%; 98%);
+  }
+	
 	@media screen and (min-width: 799px){
-	  background-size: 400px;
-    background-position-x: center;
-    background-position-y: top;
-    background-repeat: no-repeat;
-    height:100%;
-    width: 100%;
-    text-align: center;
+	  .homepagebackground(400px; 100%);
   }
   
   @media screen and (min-width: 1023px){
-    background-size: 500px;
-    background-position-x: center;
-    background-position-y: 50;
-    background-repeat: no-repeat;
-    height:100%;
-    width: 100%;
-    text-align: center;
+    .homepagebackground(500px; 100%);
   }
 
 	@media screen and (min-width: 1399px){
-    background-size: 500px;
-    background-position-x: center;
-    background-position-y: 50;
-    background-repeat: no-repeat;
-    height:100%;
-    width: 100%;
-    text-align: center;
+    .homepagebackground(500px; 100%);
   }
 	
 	@media screen and (min-width: 1919px){
-		background-size: 600px;
-		background-position-x: center;
-		background-position-y: 50;
-		background-repeat: no-repeat;
-		height:100%;
-		width: 100%;
-		text-align: center;
+		.homepagebackground(600px; 100%);
 	}
 	
 }
@@ -231,6 +200,10 @@ html{
     padding-top: 65px;
   }
 	
+	@media screen and (min-width: 767px) and (min-height: 550px){
+    font-size: 55pt;
+    padding-top: 95px;
+  }
 	
 	@media screen and (min-width: 799px){
      font-size: 55pt;
@@ -241,7 +214,7 @@ html{
   @media screen and (min-width: 1023px){
      font-size: 60pt;
     font-weight:bold;
-    padding-top: 170px;
+    padding-top: 120px;
   }
   
 	@media screen and (min-width: 1919px){
@@ -275,6 +248,13 @@ html{
     line-height:45px;
 	}
 	
+	@media screen and (min-width: 767px) and (min-height: 550px){
+    font-size:28pt;
+    line-height:40px;
+    padding-top:30px;
+    font-weight:bold;
+  }
+	
 	@media screen and (min-width: 799px){
     font-size:28pt;
     line-height:40px;
@@ -283,9 +263,9 @@ html{
   }
   
   @media screen and (min-width: 1023px){
-    font-size:35pt;
-    line-height:50px;
-    padding-top:50px;
+    font-size:43pt;
+    line-height:60px;
+    padding-top:40px;
     font-weight:bold;
   }
 	
@@ -324,6 +304,12 @@ html{
    @media screen and (min-width: 767px){
     padding-top: 10px;
     width: 150px;
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 767px) and (min-height: 550px){
+    padding-top: 25px;
+    width: 175px;
     margin: 0 auto;
   }
   
@@ -447,11 +433,29 @@ body {
 		background-repeat: no-repeat;
 	}
 	
+	@media screen and (min-width:639px) and (min-height:550px){
+    background-image: url('../img/background/home-1280.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+  }
+	
 	@media screen and (min-width: 767px){
-		background-image: url('../img/background/home-1440.jpg');
+		background-image: url('../img/background/home-800.jpg');
 		background-attachment:fixed;
 		background-repeat: no-repeat;
 	}
+	
+	@media screen and (min-width: 767px) and (min-height:550px){
+    background-image: url('../img/background/home-1440.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+  }
+  
+  @media screen and (min-width:799px){
+    background-image: url('../img/background/home-1280.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+  }
 		
 	@media screen and (min-width:1280px){
 		background-image: url('../img/background/home-1440.jpg');
