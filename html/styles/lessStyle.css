@@ -964,134 +964,186 @@ html {
   }
 }
 #page2 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   /* MOST SMARTPHONES PORTRAIT */
 
 }
 @media screen and (min-width: 319px) {
   #page2 {
-    background-image: url('../img/background/about-800.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-image: url('../img/background/about-640.jpg');
   }
 }
-@media screen and (min-width: 319px) {
+@media screen and (min-width: 319px) and (min-height: 450px) {
   #page2 {
     background-image: url('../img/background/about-1024.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 319px) and (min-height: 700px) {
+  #page2 {
+    background-image: url('../img/background/about-1280.jpg');
+  }
+}
+@media screen and (min-width: 319px) and (min-height: 900px) {
+  #page2 {
+    background-image: url('../img/background/about-1440.jpg');
   }
 }
 @media screen and (min-width: 479px) {
   #page2 {
+    background-image: url('../img/background/about-640.jpg');
+  }
+}
+@media screen and (min-width: 479px) and (min-height: 450px) {
+  #page2 {
+    background-image: url('../img/background/about-1024.jpg');
+  }
+}
+@media screen and (min-width: 479px) and (min-height: 700px) {
+  #page2 {
+    background-image: url('../img/background/about-1280.jpg');
+  }
+}
+@media screen and (min-width: 479px) and (min-height: 900px) {
+  #page2 {
     background-image: url('../img/background/about-1440.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 639px) {
   #page2 {
     background-image: url('../img/background/about-800.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 639px) and (min-height: 550px) {
+  #page2 {
+    background-image: url('../img/background/about-1280.jpg');
   }
 }
 @media screen and (min-width: 767px) {
   #page2 {
+    background-image: url('../img/background/about-800.jpg');
+  }
+}
+@media screen and (min-width: 767px) and (min-height: 550px) {
+  #page2 {
     background-image: url('../img/background/about-1440.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 799px) {
+  #page2 {
+    background-image: url('../img/background/about-1280.jpg');
   }
 }
 @media screen and (min-width: 1280px) {
   #page2 {
     background-image: url('../img/background/about-1440.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 1439px) {
   #page2 {
     background-image: url('../img/background/about-1733.jpg');
-    background-attachment: fixed;
   }
 }
 @media screen and (min-width: 1732px) {
   #page2 {
     background-image: url('../img/background/about-1920.jpg');
-    background-attachment: fixed;
   }
 }
 @media screen and (min-width: 1919px) {
   #page2 {
     background-image: url('../img/background/about-2560.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
   }
 }
 /* SPECIALIZATIONS*/
 #page3 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   /* MOST SMARTPHONES PORTRAIT */
 
 }
 @media screen and (min-width: 319px) {
   #page3 {
-    background-image: url('../img/background/specialization-800.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-image: url('../img/background/specialization-640.jpg');
   }
 }
-@media screen and (min-width: 319px) {
+@media screen and (min-width: 319px) and (min-height: 450px) {
   #page3 {
     background-image: url('../img/background/specialization-1024.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 319px) and (min-height: 700px) {
+  #page3 {
+    background-image: url('../img/background/specialization-1280.jpg');
+  }
+}
+@media screen and (min-width: 319px) and (min-height: 900px) {
+  #page3 {
+    background-image: url('../img/background/specialization-1440.jpg');
   }
 }
 @media screen and (min-width: 479px) {
   #page3 {
+    background-image: url('../img/background/specialization-640.jpg');
+  }
+}
+@media screen and (min-width: 479px) and (min-height: 450px) {
+  #page3 {
+    background-image: url('../img/background/specialization-1024.jpg');
+  }
+}
+@media screen and (min-width: 479px) and (min-height: 700px) {
+  #page3 {
+    background-image: url('../img/background/specialization-1280.jpg');
+  }
+}
+@media screen and (min-width: 479px) and (min-height: 900px) {
+  #page3 {
     background-image: url('../img/background/specialization-1440.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 639px) {
   #page3 {
     background-image: url('../img/background/specialization-800.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 639px) and (min-height: 550px) {
+  #page3 {
+    background-image: url('../img/background/specialization-1280.jpg');
   }
 }
 @media screen and (min-width: 767px) {
   #page3 {
+    background-image: url('../img/background/specialization-800.jpg');
+  }
+}
+@media screen and (min-width: 767px) and (min-height: 550px) {
+  #page3 {
     background-image: url('../img/background/specialization-1440.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 799px) {
+  #page3 {
+    background-image: url('../img/background/specialization-1280.jpg');
   }
 }
 @media screen and (min-width: 1280px) {
   #page3 {
     background-image: url('../img/background/specialization-1440.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 1439px) {
   #page3 {
     background-image: url('../img/background/specialization-1733.jpg');
-    background-attachment: fixed;
   }
 }
 @media screen and (min-width: 1732px) {
   #page3 {
     background-image: url('../img/background/specialization-1920.jpg');
-    background-attachment: fixed;
   }
 }
 @media screen and (min-width: 1919px) {
   #page3 {
     background-image: url('../img/background/specialization-2560.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
   }
 }
 /* JOBS*/
@@ -1320,74 +1372,91 @@ html {
   color: #333333;
 }
 #page4 {
-  /* MOST SMARTPHONES PORTRAIT */
-
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 @media screen and (min-width: 319px) {
   #page4 {
-    background-image: url('../img/background/jobs-800.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-image: url('../img/background/jobs-640.jpg');
   }
 }
-@media screen and (min-width: 319px) {
+@media screen and (min-width: 319px) and (min-height: 450px) {
   #page4 {
     background-image: url('../img/background/jobs-1024.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 319px) and (min-height: 700px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1280.jpg');
+  }
+}
+@media screen and (min-width: 319px) and (min-height: 900px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1440.jpg');
   }
 }
 @media screen and (min-width: 479px) {
   #page4 {
+    background-image: url('../img/background/jobs-640.jpg');
+  }
+}
+@media screen and (min-width: 479px) and (min-height: 450px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1024.jpg');
+  }
+}
+@media screen and (min-width: 479px) and (min-height: 700px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1280.jpg');
+  }
+}
+@media screen and (min-width: 479px) and (min-height: 900px) {
+  #page4 {
     background-image: url('../img/background/jobs-1440.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 639px) {
   #page4 {
     background-image: url('../img/background/jobs-800.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 639px) and (min-height: 550px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1280.jpg');
   }
 }
 @media screen and (min-width: 767px) {
   #page4 {
-    background-image: url('../img/background/jobs-1440.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-image: url('../img/background/jobs-800.jpg');
   }
 }
-@media screen and (min-width: 767px) and (orientation: portrait) {
+@media screen and (min-width: 767px) and (min-height: 550px) {
   #page4 {
-    background-image: url('../img/background/jobs-1920.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-image: url('../img/background/jobs-1440.jpg');
+  }
+}
+@media screen and (min-width: 799px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1280.jpg');
   }
 }
 @media screen and (min-width: 1280px) {
   #page4 {
     background-image: url('../img/background/jobs-1440.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 1439px) {
   #page4 {
     background-image: url('../img/background/jobs-1733.jpg');
-    background-attachment: fixed;
   }
 }
 @media screen and (min-width: 1732px) {
   #page4 {
     background-image: url('../img/background/jobs-1920.jpg');
-    background-attachment: fixed;
   }
 }
 @media screen and (min-width: 1919px) {
   #page4 {
     background-image: url('../img/background/jobs-2560.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
   }
 }
