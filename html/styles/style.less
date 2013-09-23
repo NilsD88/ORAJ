@@ -10,6 +10,10 @@
   overflow:auto;
 }
 
+.transparent(@R; @G; @B){
+  background-color: rgba(@R, @G, @B, 0.8);
+}
+
 h1, h2{
 	font-family: 'FuturaMedium';
 }
@@ -67,7 +71,7 @@ html{
 	@media screen and (min-width: 1919px){
 		padding-top:100px;
 		height:93.66%;
-		.page(93.66%);
+		.page(85.1%);
 	}
 	
 }
@@ -372,11 +376,12 @@ html{
 }
 
 .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus{
-	background-color: @black;
+	background-color: @darkGray;
 }
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner{
 	border-width: 0 0 2px;
+	border-color: @darkGray;
 }
 
 .navbar .nav{
@@ -473,6 +478,7 @@ body {
 
 
 
+
 /* ABOUT ORAJ */
 
 #page2 {
@@ -481,6 +487,259 @@ body {
 #about-oraj {
   margin-top: 0px;
 }
+
+
+#bumsContainer{
+  
+  @media screen and (min-width: 319){
+    
+  }
+  
+  @media screen and (min-width: 767){
+    height: 95%;
+    position: absolute;
+    bottom:0;
+  }
+  
+  @media screen and (min-width: 1023){
+    height: 100%;
+    position: absolute;
+    bottom:0;
+  }
+  
+    @media screen and (min-width: 1399){
+    height: 85%;
+    position: absolute;
+    bottom:0;
+  }
+ 
+}
+
+#aboutText{
+  
+   @media screen and (min-width: 319){
+    .transparent(51;51;51);
+    margin-top: 12%;
+    width:95%
+    padding:10;
+  }
+  
+   @media screen and (min-width: 767){
+    .transparent(51;51;51);
+    margin-top: 12%;
+    width: 87%;
+    float:right;
+  }
+  
+   @media screen and (min-width: 1399){
+    margin-top: 17.4%;
+  }
+}
+
+#aboutText h2, #aboutText p{
+  @media screen and (min-width: 767){
+  margin-left: 300px;
+  padding-right: 50px;
+  }
+}
+#aboutText p{
+  color: white;
+  padding-bottom: 20px;
+}
+
+#aboutText h2{
+  font-family: 'FuturaBold';
+  color: @orangeText;
+  font-size: 38px;
+  margin-top: 30px;
+}
+
+#bottomRow{
+    @media screen and (min-width: 767){
+      margin-top:50px;
+    }
+     @media screen and (min-width: 1023){
+      margin-top:20px;
+    }
+}
+
+#text1{
+  
+  height:100;
+}
+#text2{
+ 
+  height:100;
+}
+#text3{
+ 
+  height:100;
+}
+#text4{
+  height:100;
+}
+
+#bumNames{
+  color:@orangeText;
+  margin-left:0px;
+  width: 70.9%%;
+  text-align: center;
+  line-height: 75px;
+  @media screen and (min-width: 319){
+      width: 80%;
+    }
+  @media screen and (min-width: 767){
+      width: 70.9%;
+    }
+}
+
+#bumNames h2{
+   font-family: 'FuturaBold';
+   @media screen and (min-width: 319){
+     font-size: 20px;
+    }
+    @media screen and (min-width: 767){
+     font-size: 18px;
+    }
+     @media screen and (min-width: 1023){
+     font-size: 22px;
+    }
+     @media screen and (min-width: 1399){
+     font-size: 28px;
+    }
+}
+#jurgenArrow{
+  background-image: url('../img/arrow_jurgen.png');
+  background-repeat: no-repeat;
+  height: 108px;
+
+  @media screen and (min-width: 319){
+      float:left;
+      width:20%;
+    } 
+    @media screen and (min-width: 767){
+      float:right;
+      width:inherit;
+        margin-left:0px;
+     margin-top: 35px;
+       
+    }
+  
+}
+#johanArrow{
+  background-image: url('../img/arrow_johan.png');
+  background-repeat: no-repeat;
+  height: 108px;
+ 
+   @media screen and (min-width: 319){
+      float:right;
+      width:20%;
+    } 
+    @media screen and (min-width: 767){
+      width:inherit;
+       margin-left:-40px;
+      margin-top: 75px;
+    }
+  
+  
+}
+#bumPicture{
+  background-image: url('../img/johan_jurgen.png');
+  background-repeat: no-repeat;
+  height: 499px;
+  
+  @media screen and (min-width: 319){
+     
+      position:absolute;
+     min-width: 400px;
+     margin-left: -75px;
+    }  
+  
+  @media screen and (min-width: 767){
+     min-width: 400px;
+     margin-left: -75px;
+    }
+   @media screen and (min-width: 980){
+     min-width: 400px;
+     bottom:0;
+     margin-left: -20px;
+    }
+    
+  @media screen and (min-width: 1023){
+    margin-left: -40px;
+    bottom:-100;
+  }
+  @media screen and (min-width: 1200){
+    margin-left: 0px;
+  bottom: 0;
+  }
+
+  @media screen and (min-width: 1399){
+    margin-left: 0px;
+  bottom: 0;
+  }
+}
+
+#unitManagers{
+  
+  
+   @media screen and (min-width: 319){
+     color:@darkGray;
+    text-align: center;
+    margin-bottom: 10px;
+     font-size: 22px;
+   }
+  
+   @media screen and (min-width: 767){
+     font-size: 35px;
+    }
+    
+     @media screen and (min-width: 1023){
+      margin-left: 0px;
+    }
+  
+}
+
+#unitManagers h2{
+   font-family: 'FuturaBold';
+   
+   @media screen and (min-width: 1023){
+     font-size: 28px;
+    }
+    @media screen and (min-width: 1399){
+     font-size: 38px;
+    }
+}
+
+#textBlock{
+  
+  @media screen and (min-width: 1023){
+    margin-top: 30px;
+  }
+  
+}
+
+#textBlock p{
+  border-left: 1px solid @orangeText;
+  padding-left: 5px;
+  font-size: 12px;
+  
+  
+}
+.number h2{
+  
+   @media screen and (min-width: 767){
+     font-size: 55px;
+    }
+     @media screen and (min-width: 1023){
+     font-size: 65px;
+    }
+    @media screen and (min-width: 1399){
+     font-size: 80px;
+    }
+}
+
+
 
 #page2{
 	/* MOST SMARTPHONES PORTRAIT */
@@ -595,9 +854,7 @@ body {
 
 /* JOBS*/
 
-.transparent(@R; @G; @B){
-  background-color: rgba(@R, @G, @B, 0.8);
-}
+
 
 .jobBlock{
   
