@@ -999,7 +999,6 @@ html {
   #numberOfEvents,
   #numberOfTrainings {
     display: inline-block;
-    width: 15% ;
     margin-bottom: 20px;
     border-right: 1px solid #e98300;
   }
@@ -1020,7 +1019,6 @@ html {
   #numberOfEventsText,
   #numberOfTrainingsText {
     display: inline-block;
-    width: 84%;
   }
 }
 @media screen and (min-width: 767) {
