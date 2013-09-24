@@ -841,13 +841,11 @@ body {
 
 #textBlock p{
    padding-left: 5px;
-  font-size: 12px;
-  @media screen and (min-width: 767){
-    border-left: 1px solid @orangeText;
-  }
-  
- 
-  
+  font-size: 12px;  
+}
+
+.number{
+  float:left;
   
 }
 
@@ -860,6 +858,10 @@ body {
    @media screen and (min-width: 767){
      font-size: 55px;
     }
+     @media screen and (max-width: 979){
+       font-size: 48px;
+     }
+    
      @media screen and (min-width: 1023){
      font-size: 65px;
     }
@@ -868,28 +870,64 @@ body {
     }
 }
 
-#numberOfPeople, #numberOfCustomers, #numberOfEvents, #numberOfTrainings{
+#text1, #text2, #text3, #text4{
+    @media screen and (min-width: 319){
+    float:left;
+  }
+}
+
+#numberOfPeople, #numberOfEvents, #numberOfTrainings, #numberOfCustomers{
   @media screen and (min-width: 319){
-     display:inline-block;
-     margin-bottom: 20px;
-      border-right: 1px solid @orangeText;
-     
-    }
+    float:left;
+    width:30%;
+    display: inline;
+  }
   
-   @media screen and (min-width: 767){
-      display: block;
-      margin-bottom: 0px;
-      border-right: none;
-    }
+  @media screen and (min-width: 479){
+     width:20%;
+  }
+  
+  @media screen and (min-width: 684){
+    width: 16.5%;
+  }
+  
+  @media screen and (min-width: 767){
+    float:left;
+    width:42%;
+    display: inline;
+    
+  }
 }
-#numberOfPeopleText, #numberOfCustomersText, #numberOfEventsText, #numberOfTrainingsText{
+
+#numberOfPeopleText, #numberOfEventsText, #numberOfTrainingsText, #numberOfCustomersText{
   @media screen and (min-width: 319){
-      display: inline-block;
-    }
-   @media screen and (min-width: 767){
-      display: block;
-    }
+    float:left;
+    display: inline;
+    width: 70%;
+    border-left: 1px solid @orangeText;
+  }
+  
+  @media screen and (min-width: 767){
+    float:left;
+    display: inline;
+    width: 53%;
+    border-left: 1px solid @orangeText;
+  }
 }
+
+.halfRow{
+  
+  @media screen and (min-width: 319){
+    float:none;
+    display: block;
+    width: 100%;
+  }
+  @media screen and (min-width: 767){
+    float:left;
+    width:50%;
+  }
+}
+
 
 
 

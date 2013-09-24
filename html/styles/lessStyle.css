@@ -965,10 +965,8 @@ html {
   padding-left: 5px;
   font-size: 12px;
 }
-@media screen and (min-width: 767) {
-  #textBlock p {
-    border-left: 1px solid #e98300;
-  }
+.number {
+  float: left;
 }
 .number h2 {
   font-family: 'FuturaBold';
@@ -983,6 +981,11 @@ html {
     font-size: 55px;
   }
 }
+@media screen and (max-width: 979) {
+  .number h2 {
+    font-size: 48px;
+  }
+}
 @media screen and (min-width: 1023) {
   .number h2 {
     font-size: 65px;
@@ -994,39 +997,82 @@ html {
   }
 }
 @media screen and (min-width: 319) {
+  #text1,
+  #text2,
+  #text3,
+  #text4 {
+    float: left;
+  }
+}
+@media screen and (min-width: 319) {
   #numberOfPeople,
-  #numberOfCustomers,
   #numberOfEvents,
-  #numberOfTrainings {
-    display: inline-block;
-    margin-bottom: 20px;
-    border-right: 1px solid #e98300;
+  #numberOfTrainings,
+  #numberOfCustomers {
+    float: left;
+    width: 30%;
+    display: inline;
+  }
+}
+@media screen and (min-width: 479) {
+  #numberOfPeople,
+  #numberOfEvents,
+  #numberOfTrainings,
+  #numberOfCustomers {
+    width: 20%;
+  }
+}
+@media screen and (min-width: 684) {
+  #numberOfPeople,
+  #numberOfEvents,
+  #numberOfTrainings,
+  #numberOfCustomers {
+    width: 16.5%;
   }
 }
 @media screen and (min-width: 767) {
   #numberOfPeople,
-  #numberOfCustomers,
   #numberOfEvents,
-  #numberOfTrainings {
-    display: block;
-    margin-bottom: 0px;
-    border-right: none;
+  #numberOfTrainings,
+  #numberOfCustomers {
+    float: left;
+    width: 42%;
+    display: inline;
   }
 }
 @media screen and (min-width: 319) {
   #numberOfPeopleText,
-  #numberOfCustomersText,
   #numberOfEventsText,
-  #numberOfTrainingsText {
-    display: inline-block;
+  #numberOfTrainingsText,
+  #numberOfCustomersText {
+    float: left;
+    display: inline;
+    width: 70%;
+    border-left: 1px solid #e98300;
   }
 }
 @media screen and (min-width: 767) {
   #numberOfPeopleText,
-  #numberOfCustomersText,
   #numberOfEventsText,
-  #numberOfTrainingsText {
+  #numberOfTrainingsText,
+  #numberOfCustomersText {
+    float: left;
+    display: inline;
+    width: 53%;
+    border-left: 1px solid #e98300;
+  }
+}
+@media screen and (min-width: 319) {
+  .halfRow {
+    float: none;
     display: block;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 767) {
+  .halfRow {
+    float: left;
+    width: 50%;
   }
 }
 #page2 {
