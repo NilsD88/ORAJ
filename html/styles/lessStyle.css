@@ -609,6 +609,11 @@ html {
     bottom: 0;
   }
 }
+@media screen and (min-width: 1199) {
+  #bumsContainer {
+    height: 90%;
+  }
+}
 @media screen and (min-width: 1399) {
   #bumsContainer {
     height: 85%;
@@ -618,6 +623,7 @@ html {
 }
 @media screen and (min-width: 319) {
   #aboutText {
+    display: none;
     background-color: rgba(51, 51, 51, 0.8);
     margin-top: 12%;
     width: 95%
@@ -626,6 +632,7 @@ html {
 }
 @media screen and (min-width: 767) {
   #aboutText {
+    display: block;
     background-color: rgba(51, 51, 51, 0.8);
     margin-top: 12%;
     width: 87%;
@@ -637,20 +644,42 @@ html {
     margin-top: 17.4%;
   }
 }
+@media screen and (min-width: 319) {
+  #aboutTextTop {
+    display: block;
+    background-color: rgba(51, 51, 51, 0.8);
+    margin-top: 12%;
+    width: 95%
+      padding:10;
+  }
+}
+@media screen and (min-width: 767) {
+  #aboutTextTop {
+    display: none;
+    background-color: rgba(51, 51, 51, 0.8);
+    margin-top: 12%;
+    width: 87%;
+    float: right;
+  }
+}
 @media screen and (min-width: 767) {
   #aboutText h2,
-  #aboutText p {
+  #aboutText p,
+  #aboutTextTop h2,
+  #aboutTextTop p {
     margin-left: 300px;
     padding-right: 50px;
   }
 }
-#aboutText p {
+#aboutText p,
+#aboutTextTop p {
   color: white;
   padding-bottom: 20px;
   padding-right: 20px;
   padding-left: 20px;
 }
-#aboutText h2 {
+#aboutText h2,
+#aboutTextTop h2 {
   font-family: 'FuturaBold';
   color: #e98300;
   font-size: 38px;
@@ -666,18 +695,6 @@ html {
   #bottomRow {
     margin-top: 20px;
   }
-}
-#text1 {
-  height: 100;
-}
-#text2 {
-  height: 100;
-}
-#text3 {
-  height: 100;
-}
-#text4 {
-  height: 100;
 }
 #bumNames {
   color: #e98300;
@@ -934,15 +951,32 @@ html {
     font-size: 38px;
   }
 }
+@media screen and (min-width: 319) {
+  #textBlock {
+    padding: 20px;
+  }
+}
 @media screen and (min-width: 1023) {
   #textBlock {
     margin-top: 30px;
   }
 }
 #textBlock p {
-  border-left: 1px solid #e98300;
   padding-left: 5px;
   font-size: 12px;
+}
+@media screen and (min-width: 767) {
+  #textBlock p {
+    border-left: 1px solid #e98300;
+  }
+}
+.number h2 {
+  font-family: 'FuturaBold';
+}
+@media screen and (min-width: 312) {
+  .number h2 {
+    font-size: 60px;
+  }
 }
 @media screen and (min-width: 767) {
   .number h2 {
@@ -957,6 +991,44 @@ html {
 @media screen and (min-width: 1399) {
   .number h2 {
     font-size: 80px;
+  }
+}
+@media screen and (min-width: 319) {
+  #numberOfPeople,
+  #numberOfCustomers,
+  #numberOfEvents,
+  #numberOfTrainings {
+    display: inline-block;
+    width: 15% ;
+    margin-bottom: 20px;
+    border-right: 1px solid #e98300;
+  }
+}
+@media screen and (min-width: 767) {
+  #numberOfPeople,
+  #numberOfCustomers,
+  #numberOfEvents,
+  #numberOfTrainings {
+    display: block;
+    margin-bottom: 0px;
+    border-right: none;
+  }
+}
+@media screen and (min-width: 319) {
+  #numberOfPeopleText,
+  #numberOfCustomersText,
+  #numberOfEventsText,
+  #numberOfTrainingsText {
+    display: inline-block;
+    width: 84%;
+  }
+}
+@media screen and (min-width: 767) {
+  #numberOfPeopleText,
+  #numberOfCustomersText,
+  #numberOfEventsText,
+  #numberOfTrainingsText {
+    display: block;
   }
 }
 #page2 {
