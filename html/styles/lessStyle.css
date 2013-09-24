@@ -23,7 +23,7 @@ html {
   .page {
     padding-top: 30px;
     width: 100%;
-    max-height: 89.5%;
+    max-height: 90%;
     overflow: auto;
     overflow-x: hidden;
   }
@@ -32,7 +32,7 @@ html {
   .page {
     padding-top: 30px;
     width: 100%;
-    max-height: 89.5%;
+    max-height: 90%;
     overflow: auto;
     overflow-x: hidden;
   }
@@ -100,12 +100,19 @@ html {
     margin-right: 0px;
   }
 }
+@media screen and (max-width: 979px) {
+  .navbar .brand {
+    margin: 0px !important;
+    padding: 10px 10px 9px;
+  }
+}
 .brand {
   /* MOST SMARTPHONES PORTRAIT */
 
 }
 @media screen and (min-width: 319px) {
   .brand {
+    margin-left: 5px;
     background-image: url('../img/oraj_logo_small.png');
     background-repeat: no-repeat;
     background-position: center left;
@@ -459,6 +466,7 @@ html {
 .navbar-static-top .navbar-inner {
   border-width: 0 0 2px;
   border-color: #333333;
+  min-height: 0px;
 }
 .navbar .nav {
   float: right;

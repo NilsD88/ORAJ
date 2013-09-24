@@ -46,12 +46,12 @@ html{
 	/* MOST SMARTPHONES PORTRAIT */
 	@media screen and (min-width: 319px){
 		padding-top:30px;
-		.page(89.5%);
+		.page(90%);
 	}
 	/* MOST SMARTPHONES landscape */
 	@media screen and (min-width: 479px){
 		padding-top:30px;
-		.page(89.5%);
+		.page(90%);
 	}
 	
 	@media screen and (min-width: 599px){
@@ -96,10 +96,18 @@ html{
   
 }
 
+.navbar .brand {
+  @media screen and (max-width: 979px){
+    margin: 0px !important;
+    padding: 10px 10px 9px;
+  }
+}
+
 .brand{
 		
 	/* MOST SMARTPHONES PORTRAIT */
 	@media screen and (min-width: 319px){
+	  margin-left: 5px;
 		background-image: url('../img/oraj_logo_small.png');
 		background-repeat: no-repeat;
 		background-position:center left;
@@ -368,6 +376,7 @@ html{
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner{
 	border-width: 0 0 2px;
 	border-color: @darkGray;
+	min-height: 0px;
 }
 
 .navbar .nav{
