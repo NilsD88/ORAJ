@@ -837,7 +837,7 @@ html {
     margin-left: 80px;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #jurgenArrow {
     margin-left: -20px;
     margin-top: 35px;
