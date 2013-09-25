@@ -497,7 +497,6 @@ html {
 }
 .navbar-inverse .navbar-inner {
   background-image: none;
-  filter: ;
   background-color: #ffffff;
   background-repeat: repeat-x;
   border-color: #252525;
@@ -603,58 +602,58 @@ html {
 #about-oraj {
   margin-top: 0px;
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #bumsContainer {
     height: 95%;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
   }
 }
-@media screen and (min-width: 767) and (max-height: 1024) {
+@media screen and (min-width: 767px) and (max-height: 1024px) {
   #bumsContainer {
     height: 75%;
   }
 }
-@media screen and (min-width: 1023) {
+@media screen and (min-width: 1023px) {
   #bumsContainer {
     height: 91%;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
   }
 }
-@media screen and (min-width: 1199) {
+@media screen and (min-width: 1199px) {
   #bumsContainer {
     height: 90%;
   }
 }
-@media screen and (min-width: 1399) {
+@media screen and (min-width: 1399px) {
   #bumsContainer {
     height: 91%;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
   }
 }
-@media screen and (min-width: 1439) {
+@media screen and (min-width: 1439px) {
   
 }
-@media screen and (min-width: 1599) {
+@media screen and (min-width: 1599px) {
   #bumsContainer {
     height: 85%;
   }
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   #aboutText {
     display: none;
     background-color: rgba(51, 51, 51, 0.8);
     margin-top: 12%;
-    width: 95%
-      padding:10;
+    width: 95%;
+    padding: 10;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #aboutText {
     display: block;
     background-color: rgba(51, 51, 51, 0.8);
@@ -663,36 +662,36 @@ html {
     float: right;
   }
 }
-@media screen and (min-width: 980) {
+@media screen and (min-width: 980px) {
   #aboutText {
     margin-top: 0;
   }
 }
-@media screen and (min-width: 1399) {
+@media screen and (min-width: 1399px) {
   #aboutText {
     margin-top: 3.3%;
   }
 }
-@media screen and (min-width: 1439) {
+@media screen and (min-width: 1439px) {
   #aboutText {
     margin-top: 8.3%;
   }
 }
-@media screen and (min-width: 1599) {
+@media screen and (min-width: 1599px) {
   #aboutText {
     margin-top: 15%;
   }
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   #aboutTextTop {
     display: block;
     background-color: rgba(51, 51, 51, 0.8);
     margin-top: 12%;
-    width: 95%
-      padding:10;
+    width: 95%;
+    padding: 10;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #aboutTextTop {
     display: none;
     background-color: rgba(51, 51, 51, 0.8);
@@ -701,7 +700,7 @@ html {
     float: right;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #aboutText h2,
   #aboutText p,
   #aboutTextTop h2,
@@ -725,12 +724,12 @@ html {
   margin-top: 30px;
   padding-left: 20px;
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #bottomRow {
     margin-top: 50px;
   }
 }
-@media screen and (min-width: 1023) {
+@media screen and (min-width: 1023px) {
   #bottomRow {
     margin-top: 20px;
   }
@@ -738,11 +737,11 @@ html {
 #bumNames {
   color: #e98300;
   margin-left: 0px;
-  width: 70.9%%;
+  width: 70.9%;
   text-align: center;
   line-height: 75px;
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   #bumNames {
     width: 100%;
   }
@@ -752,12 +751,12 @@ html {
     width: 95%;
   }
 }
-@media screen and (min-width: 479) {
+@media screen and (min-width: 479px) {
   #bumNames {
     width: 90%;
   }
 }
-@media screen and (min-width: 567) {
+@media screen and (min-width: 567px) {
   #bumNames {
     width: 80%;
   }
@@ -767,7 +766,7 @@ html {
     width: 75%;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #bumNames {
     width: 80%;
   }
@@ -775,7 +774,7 @@ html {
 #bumNames h2 {
   font-family: 'FuturaBold';
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   #bumNames h2 {
     font-size: 20px;
   }
@@ -785,7 +784,7 @@ html {
     font-size: 24px;
   }
 }
-@media screen and (min-width: 479) {
+@media screen and (min-width: 479px) {
   #bumNames h2 {
     font-size: 28px;
   }
@@ -795,17 +794,17 @@ html {
     font-size: 26px;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #bumNames h2 {
     font-size: 18px;
   }
 }
-@media screen and (min-width: 1023) {
+@media screen and (min-width: 1023px) {
   #bumNames h2 {
     font-size: 22px;
   }
 }
-@media screen and (min-width: 1399) {
+@media screen and (min-width: 1399px) {
   #bumNames h2 {
     font-size: 28px;
   }
@@ -815,20 +814,20 @@ html {
   background-repeat: no-repeat;
   height: 108px;
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   #jurgenArrow {
     float: left;
     margin-top: 60;
     width: 13%;
   }
 }
-@media screen and (min-width: 479) {
+@media screen and (min-width: 479px) {
   #jurgenArrow {
     margin-left: 20px;
     margin-top: 50px;
   }
 }
-@media screen and (min-width: 567) {
+@media screen and (min-width: 567px) {
   #jurgenArrow {
     margin-left: 50px;
   }
@@ -849,7 +848,7 @@ html {
   background-repeat: no-repeat;
   height: 108px;
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   #johanArrow {
     float: right;
     width: 14%;
@@ -857,7 +856,7 @@ html {
     margin-top: -20;
   }
 }
-@media screen and (min-width: 567) {
+@media screen and (min-width: 567px) {
   #johanArrow {
     margin-right: 30px;
   }
@@ -867,14 +866,14 @@ html {
     margin-right: 50px;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #johanArrow {
     margin-right: 0;
     margin-left: -40px;
     margin-top: 55px;
   }
 }
-@media screen and (min-width: 799) {
+@media screen and (min-width: 799px) {
   #johanArrow {
     margin-top: 75px;
   }
@@ -884,10 +883,9 @@ html {
   background-repeat: no-repeat;
   height: 499px;
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   #bumPicture {
     margin-left: -55px;
-    position: absolute;
     min-width: 400px;
   }
 }
@@ -896,53 +894,53 @@ html {
     margin-left: -15px;
   }
 }
-@media screen and (min-width: 479) {
+@media screen and (min-width: 479px) {
   #bumPicture {
     margin-left: 30px;
   }
 }
-@media screen and (min-width: 567) {
+@media screen and (min-width: 567px) {
   #bumPicture {
     margin-left: 100px;
   }
 }
-@media screen and (min-width: 591) {
+@media screen and (min-width: 591px) {
   #bumPicture {
     margin-left: 100px;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #bumPicture {
     min-width: 400px;
     margin-left: -75px;
     bottom: 0;
   }
 }
-@media screen and (min-width: 767) and (max-height: 1024) {
+@media screen and (min-width: 767px) and (max-height: 1024px) {
   #bumPicture {
     bottom: -175;
   }
 }
-@media screen and (min-width: 980) {
+@media screen and (min-width: 980px) {
   #bumPicture {
     min-width: 400px;
     bottom: -165;
     margin-left: -20px;
   }
 }
-@media screen and (min-width: 1023) {
+@media screen and (min-width: 1023px) {
   #bumPicture {
     margin-left: -40px;
     bottom: -50;
   }
 }
-@media screen and (min-width: 1200) {
+@media screen and (min-width: 1200px) {
   #bumPicture {
     margin-left: 0px;
     bottom: 0;
   }
 }
-@media screen and (min-width: 1399) {
+@media screen and (min-width: 1399px) {
   #bumPicture {
     margin-left: 0px;
     bottom: 0;
@@ -954,17 +952,17 @@ html {
   color: #e98300;
   text-align: center;
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   #aboutORAJ {
     display: block;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #aboutORAJ {
     display: none;
   }
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   #unitManagers {
     color: #333333;
     text-align: center;
@@ -972,12 +970,12 @@ html {
     font-size: 22px;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #unitManagers {
     font-size: 35px;
   }
 }
-@media screen and (min-width: 1023) {
+@media screen and (min-width: 1023px) {
   #unitManagers {
     margin-left: 0px;
   }
@@ -985,27 +983,27 @@ html {
 #unitManagers h2 {
   font-family: 'FuturaBold';
 }
-@media screen and (min-width: 767) and (max-height: 1024) {
+@media screen and (min-width: 767px) and (max-height: 1024px) {
   #unitManagers h2 {
     font-size: 50px;
   }
 }
-@media screen and (min-width: 1023) {
+@media screen and (min-width: 1023px) {
   #unitManagers h2 {
     font-size: 28px;
   }
 }
-@media screen and (min-width: 1399) {
+@media screen and (min-width: 1399px) {
   #unitManagers h2 {
     font-size: 38px;
   }
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   #textBlock {
     padding: 20px;
   }
 }
-@media screen and (min-width: 1023) {
+@media screen and (min-width: 1023px) {
   #textBlock {
     margin-top: 30px;
   }
@@ -1020,32 +1018,32 @@ html {
 .number h2 {
   font-family: 'FuturaBold';
 }
-@media screen and (min-width: 312) {
+@media screen and (min-width: 319px) {
   .number h2 {
     font-size: 60px;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   .number h2 {
     font-size: 55px;
   }
 }
-@media screen and (max-width: 979) {
+@media screen and (max-width: 979px) {
   .number h2 {
     font-size: 48px;
   }
 }
-@media screen and (min-width: 1023) {
+@media screen and (min-width: 1023px) {
   .number h2 {
     font-size: 65px;
   }
 }
-@media screen and (min-width: 1399) {
+@media screen and (min-width: 1399px) {
   .number h2 {
     font-size: 80px;
   }
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   #text1,
   #text2,
   #text3,
@@ -1053,7 +1051,7 @@ html {
     float: left;
   }
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   #numberOfPeople,
   #numberOfEvents,
   #numberOfTrainings,
@@ -1063,7 +1061,7 @@ html {
     display: inline;
   }
 }
-@media screen and (min-width: 479) {
+@media screen and (min-width: 479px) {
   #numberOfPeople,
   #numberOfEvents,
   #numberOfTrainings,
@@ -1071,7 +1069,7 @@ html {
     width: 20%;
   }
 }
-@media screen and (min-width: 684) {
+@media screen and (min-width: 684px) {
   #numberOfPeople,
   #numberOfEvents,
   #numberOfTrainings,
@@ -1079,7 +1077,7 @@ html {
     width: 16.5%;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #numberOfPeople,
   #numberOfEvents,
   #numberOfTrainings,
@@ -1089,7 +1087,7 @@ html {
     display: inline;
   }
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   #numberOfPeopleText,
   #numberOfEventsText,
   #numberOfTrainingsText,
@@ -1100,7 +1098,7 @@ html {
     border-left: 1px solid #e98300;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   #numberOfPeopleText,
   #numberOfEventsText,
   #numberOfTrainingsText,
@@ -1111,14 +1109,14 @@ html {
     border-left: 1px solid #e98300;
   }
 }
-@media screen and (min-width: 319) {
+@media screen and (min-width: 319px) {
   .halfRow {
     float: none;
     display: block;
     width: 100%;
   }
 }
-@media screen and (min-width: 767) {
+@media screen and (min-width: 767px) {
   .halfRow {
     float: left;
     width: 50%;

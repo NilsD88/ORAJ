@@ -51,7 +51,7 @@
             <ul class="nav">
               <li class="active" id="homebutton" data-animation="1"><a href="#" class="homebutton">HOME</a></li>
               <li><a href="#" id="page2button">ABOUT ORAJ</a></li>
-			   <li><a href="#" id="page3button">SPECIALIZATIONS</a></li>
+			   <li><a href="#" id="page3button">FOCUS</a></li>
 			   <li><a href="#" id="page4button">JOBS</a></li>
 			   <li><a href="http://www.ordina.be" id="ordina_logo"></a></li>
             </ul>
@@ -359,15 +359,7 @@
 			$(this).closest('li').removeClass('active');
 		});
 		$(this).closest('li').addClass('active');
-	});
-	
-	$(document).on('swipeLeft', function(){
-		alert('SWIPED TO THE RIGHT!');
-		var currentPage = $('.pt-page-current').attr('id');
-		alert(currentPage);
-		
-	});
-	
+	});	
 	</script>
 
 </body></html>
