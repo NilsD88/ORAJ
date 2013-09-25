@@ -92,6 +92,17 @@ html {
     overflow-x: hidden;
   }
 }
+@media (max-width: 979px) {
+  .nav {
+    width: 100%;
+  }
+}
+@media (max-width: 980px) {
+  .nav > li {
+    text-align: right;
+    padding-top: 2px;
+  }
+}
 @media (max-width: 767px) {
   .navbar-fixed-top,
   .navbar-fixed-bottom,
@@ -602,6 +613,11 @@ html {
     bottom: 0;
   }
 }
+@media screen and (min-width: 767) and (max-height: 1024) {
+  #bumsContainer {
+    height: 75%;
+  }
+}
 @media screen and (min-width: 1023) {
   #bumsContainer {
     height: 100%;
@@ -637,6 +653,11 @@ html {
     margin-top: 12%;
     width: 87%;
     float: right;
+  }
+}
+@media screen and (min-width: 980) {
+  #aboutText {
+    margin-top: 0;
   }
 }
 @media screen and (min-width: 1399) {
@@ -879,10 +900,15 @@ html {
     bottom: 0;
   }
 }
+@media screen and (min-width: 767) and (max-height: 1024) {
+  #bumPicture {
+    bottom: -175;
+  }
+}
 @media screen and (min-width: 980) {
   #bumPicture {
     min-width: 400px;
-    bottom: 0;
+    bottom: -165;
     margin-left: -20px;
   }
 }
@@ -940,6 +966,11 @@ html {
 }
 #unitManagers h2 {
   font-family: 'FuturaBold';
+}
+@media screen and (min-width: 767) and (max-height: 1024) {
+  #unitManagers h2 {
+    font-size: 50px;
+  }
 }
 @media screen and (min-width: 1023) {
   #unitManagers h2 {
