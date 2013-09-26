@@ -1215,11 +1215,33 @@ html {
   }
 }
 /* FOCUS*/
-#chartContainer {
+#chartContainer,
+#chartContainerTop {
   height: 75%;
   margin-top: -6%;
 }
-#chartContainer > div > a {
+@media screen and (min-width: 319px) {
+  #chartContainer {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  #chartContainer {
+    display: block;
+  }
+}
+@media screen and (min-width: 319px) {
+  #chartContainerTop {
+    display: block;
+  }
+}
+@media screen and (min-width: 767px) {
+  #chartContainerTop {
+    display: none;
+  }
+}
+#chartContainer > div > a,
+#chartContainerTop > div > a {
   display: none;
 }
 .focusPercentage {
@@ -1232,6 +1254,8 @@ html {
   font-family: 'FuturaBold';
   color: #333333;
   font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;
   margin-bottom: 30px;
 }
 .focusJob {
@@ -1240,7 +1264,7 @@ html {
   font-size: 19px;
   margin-bottom: 0;
 }
-#javaArchitectIndicator {
+.javaArchitectIndicator {
   display: inline;
   width: 15px;
   height: 15px;
@@ -1251,7 +1275,7 @@ html {
   -webkit-box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
 }
-#frontEndDevIndicator {
+.frontEndDevIndicator {
   display: inline;
   width: 15px;
   height: 15px;
@@ -1262,7 +1286,7 @@ html {
   -webkit-box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
 }
-#cloudDevIndicator {
+.cloudDevIndicator {
   display: inline;
   width: 15px;
   height: 15px;
@@ -1273,7 +1297,7 @@ html {
   -webkit-box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
 }
-#mobileDevIndicator {
+.mobileDevIndicator {
   display: inline;
   width: 15px;
   height: 15px;
@@ -1284,7 +1308,7 @@ html {
   -webkit-box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
 }
-#javaDevIndicator {
+.javaDevIndicator {
   display: inline;
   width: 15px;
   height: 15px;
@@ -1295,8 +1319,16 @@ html {
   -webkit-box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
 }
-.jobImages {
-  height: 35px;
+@media screen and (min-width: 319px) {
+  .jobImages {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  .jobImages {
+    display: block;
+    height: 35px;
+  }
 }
 @media screen and (min-width: 319px) {
   #facts {
@@ -1312,14 +1344,40 @@ html {
 }
 @media screen and (min-width: 319px) {
   #legend {
-    padding-left: 20px;
-    padding-right: 20px;
+    display: none;
   }
 }
 @media screen and (min-width: 767px) {
   #legend {
-    padding-left: 0;
-    padding-right: 0;
+    display: block;
+  }
+}
+@media screen and (min-width: 319px) {
+  #legendTop {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 767px) {
+  #legendTop {
+    display: none;
+  }
+}
+@media screen and (min-width: 319px) {
+  #focusTitle {
+    display: block;
+    text-align: center;
+    font-family: 'FuturaBold';
+    color: #e98300;
+    font-size: 22px;
+    padding-bottom: 25px;
+  }
+}
+@media screen and (min-width: 767px) {
+  #focusTitle {
+    display: none;
   }
 }
 #page3 {

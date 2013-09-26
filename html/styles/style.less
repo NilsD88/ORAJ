@@ -1050,12 +1050,30 @@ body {
 
 /* FOCUS*/
 
-#chartContainer{
+#chartContainer, #chartContainerTop{
   height: 75%;
   margin-top: -6%;
 }
 
-#chartContainer > div > a{
+#chartContainer{
+  @media screen and (min-width:319px){
+    display: none;
+  }
+  @media screen and (min-width: 767px){
+    display: block;
+  }
+}
+
+#chartContainerTop{
+  @media screen and (min-width:319px){
+    display: block;
+  }
+  @media screen and (min-width: 767px){
+    display: none;
+  }
+}
+
+#chartContainer > div > a, #chartContainerTop > div > a{
   display: none;
 }
 
@@ -1086,6 +1104,8 @@ body {
 
 .focusText{
   .sizeAndColor(14px; @darkGray);
+  font-family: Arial;
+  font-weight: bold;
   margin-bottom: 30px;
 }
 
@@ -1094,27 +1114,35 @@ body {
   margin-bottom: 0;
 }
 
-#javaArchitectIndicator{
+.javaArchitectIndicator{
   .indicatorColor(@orangeText);
 }
-#frontEndDevIndicator{
+.frontEndDevIndicator{
   .indicatorColor(white);
 }
 
-#cloudDevIndicator{
+.cloudDevIndicator{
   .indicatorColor(#774519);
 }
 
-#mobileDevIndicator{
+.mobileDevIndicator{
   .indicatorColor(#eeeeee);
 }
 
-#javaDevIndicator{
+.javaDevIndicator{
   .indicatorColor(@darkGray);
 }
 
 .jobImages{
-  height: 35px;
+  
+    @media screen and (min-width: 319px){
+    display: none;
+  } 
+  @media screen and (min-width: 767px){
+    display: block;
+    height: 35px;
+  }
+  
 }
 
 #facts{
@@ -1130,15 +1158,38 @@ body {
 
 #legend{
   @media screen and (min-width: 319px){
-    padding-left: 20px;
-    padding-right: 20px;
+    display: none;
   }
   @media screen and (min-width: 767px){
-    padding-left: 0;
-    padding-right: 0;
+    display: block;
   }
 }
 
+#legendTop{
+  @media screen and (min-width: 319px){
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+  } 
+  @media screen and (min-width: 767px){
+    display: none;
+  }
+  
+}
+
+
+#focusTitle{
+   @media screen and (min-width: 319px){
+    display: block;
+    text-align: center;
+    .sizeAndColor(22px; @orangeText);
+    padding-bottom: 25px;
+  } 
+  @media screen and (min-width: 767px){
+    display: none;
+  }
+}
 
 
 #page3{
