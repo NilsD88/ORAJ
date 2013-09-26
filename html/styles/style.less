@@ -769,7 +769,7 @@ body {
   
   @media screen and (min-width: 319px){
      margin-left: -55px;
-    //  position:absolute;
+     position:absolute;
      min-width: 400px;
     
   }
@@ -1048,7 +1048,99 @@ body {
   }
 }
 
-/* SPECIALIZATIONS*/
+/* FOCUS*/
+
+#chartContainer{
+  height: 75%;
+  margin-top: -6%;
+}
+
+#chartContainer > div > a{
+  display: none;
+}
+
+.sizeAndColor(@fontSize; @color){
+  font-family: 'FuturaBold';
+  color: @color;
+  font-size: @fontSize;
+}
+
+.indicatorColor(@color){
+  display: inline;
+  width: 15px;
+  height: 15px;
+  background-color: @color;
+  float: left;
+  margin-top: 22px;
+  margin-right: 5px;
+  
+  -webkit-box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
+  
+}
+
+.focusPercentage{
+  .sizeAndColor(80px; @orangeText);
+  margin-bottom: 25px;
+}
+
+.focusText{
+  .sizeAndColor(14px; @darkGray);
+  margin-bottom: 30px;
+}
+
+.focusJob{
+  .sizeAndColor(19px; @orangeText);
+  margin-bottom: 0;
+}
+
+#javaArchitectIndicator{
+  .indicatorColor(@orangeText);
+}
+#frontEndDevIndicator{
+  .indicatorColor(white);
+}
+
+#cloudDevIndicator{
+  .indicatorColor(#774519);
+}
+
+#mobileDevIndicator{
+  .indicatorColor(#eeeeee);
+}
+
+#javaDevIndicator{
+  .indicatorColor(@darkGray);
+}
+
+.jobImages{
+  height: 35px;
+}
+
+#facts{
+  @media screen and (min-width: 319px){
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  @media screen and (min-width: 767px){
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+#legend{
+  @media screen and (min-width: 319px){
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  @media screen and (min-width: 767px){
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+
 #page3{
   background-attachment:fixed;
    background-repeat: no-repeat;
