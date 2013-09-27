@@ -311,7 +311,7 @@ html {
   #orange {
     font-size: 80pt;
     font-weight: bold;
-    padding-top: 198px;
+    padding-top: 150px;
   }
 }
 #homeText {
@@ -389,6 +389,7 @@ html {
 @media screen and (min-width: 319px) {
   #homeOrdinaLogo {
     padding-top: 10px;
+    padding-bottom: 150px;
     width: 150px;
     margin: 0 auto;
   }
