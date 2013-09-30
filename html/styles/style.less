@@ -1127,8 +1127,28 @@ body {
 }
 
 .focusJob{
-  .sizeAndColor(19px; @orangeText);
-  margin-bottom: 0;
+  @media screen and (min-width: 319px){
+    .sizeAndColor(19px; @orangeText);
+    margin-bottom: 0;
+  }
+  
+   @media screen and (min-width: 479px){
+    .sizeAndColor(32px; @orangeText);
+    margin-bottom: 0;
+  }
+  
+    @media screen and (min-width: 767px){
+    .sizeAndColor(19px; @orangeText);
+    margin-bottom: 0;
+  }
+  
+  
+  
+  @media screen and (min-width: 767px){
+     .sizeAndColor(19px; @orangeText);
+    margin-bottom: 0;
+  }
+  
 }
 
 .javaArchitectIndicator{
@@ -1188,7 +1208,9 @@ body {
     display: block;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 0 auto;
     margin-bottom: 30px;
+    
   } 
   @media screen and (min-width: 479px){
     margin-top: 220px;
@@ -1196,6 +1218,10 @@ body {
   
   @media screen and (min-width: 567px){
     margin-top: 290px;
+  }
+  
+  @media screen and (min-width: 592px) {
+    margin-top: 400px;
   }
   
   @media screen and (min-width: 599px){

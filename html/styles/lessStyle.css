@@ -1279,11 +1279,37 @@ html {
   font-weight: bold;
   margin-bottom: 30px;
 }
-.focusJob {
-  font-family: 'FuturaBold';
-  color: #e98300;
-  font-size: 19px;
-  margin-bottom: 0;
+@media screen and (min-width: 319px) {
+  .focusJob {
+    font-family: 'FuturaBold';
+    color: #e98300;
+    font-size: 19px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 479px) {
+  .focusJob {
+    font-family: 'FuturaBold';
+    color: #e98300;
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 767px) {
+  .focusJob {
+    font-family: 'FuturaBold';
+    color: #e98300;
+    font-size: 19px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 767px) {
+  .focusJob {
+    font-family: 'FuturaBold';
+    color: #e98300;
+    font-size: 19px;
+    margin-bottom: 0;
+  }
 }
 .javaArchitectIndicator {
   display: inline;
@@ -1379,6 +1405,7 @@ html {
     display: block;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 0 auto;
     margin-bottom: 30px;
   }
 }
@@ -1390,6 +1417,11 @@ html {
 @media screen and (min-width: 567px) {
   #legendTop {
     margin-top: 290px;
+  }
+}
+@media screen and (min-width: 592px) {
+  #legendTop {
+    margin-top: 400px;
   }
 }
 @media screen and (min-width: 599px) {
