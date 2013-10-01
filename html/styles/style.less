@@ -68,15 +68,17 @@ html{
   }	
   
   @media screen and (min-width: 767px) and (min-height: 550px){
+
     padding-top: 80px;
     .page(88%);
   }
 	
 	 @media screen and (min-width: 799px){
      padding-top: 80px;
-    .page(79%);
+    .page(86.6%);
+
   }
-  
+
   @media screen and (min-width: 1023px){
      padding-top:40px;
      .page(95%);
@@ -522,8 +524,10 @@ body {
 #page2 {
   
 }
-#about-oraj {
-  margin-top: 0px;
+
+#oraj-numbers {
+  width: 55%;
+  float: right;
 }
 
 
@@ -569,6 +573,28 @@ body {
  
 }
 
+.managercontainer {
+  margin-top: 20px;
+  width: 40%;
+  float: left;
+}
+
+.mobile {
+  display: block;
+   @media screen and (min-width: 767px){
+      display: none; 
+   }
+}
+
+.nonmobile {
+  display: none;
+   @media screen and (min-width: 767px){
+      display: block; 
+   }
+ 
+  
+}
+
 #aboutText{
   
    @media screen and (min-width: 319px){
@@ -582,17 +608,17 @@ body {
    @media screen and (min-width: 767px){
      display: block;
     .transparent(51;51;51);
-    margin-top: 12%;
+    margin-top: 5%;
     width: 87%;
     float:right;
   }
   
   @media screen and (min-width: 980px){
-    margin-top: 0;
+    margin-top: 5%;
   }
   
    @media screen and (min-width: 1399px){
-    margin-top: 3.3%;
+    margin-top: 5%;
   }
   
    @media screen and (min-width: 1439px){
@@ -625,7 +651,7 @@ body {
 
 #aboutText h2, #aboutText p, #aboutTextTop h2, #aboutTextTop p{
   @media screen and (min-width: 767px){
-  margin-left: 300px;
+  margin-left: 260px;
   padding-right: 50px;
   
   }
@@ -701,7 +727,7 @@ body {
     }
     
     @media screen and (min-width: 591px){
-           font-size: 26px;
+           font-size: 24px;
     }
       
     @media screen and (min-width: 767px){
@@ -748,7 +774,7 @@ body {
 #johanArrow{
   background-image: url('../img/arrow_johan.png');
   background-repeat: no-repeat;
-  height: 108px;
+  height: 80px;
  
    @media screen and (min-width: 319px){
       float:right;
@@ -767,8 +793,9 @@ body {
     
     @media screen and (min-width: 767px){
       margin-right: 0;
-      margin-left:-40px;
+      margin-left: -55px;
       margin-top: 55px;
+       margin-top: 75px;
     }
     
     @media screen and (min-width: 799px){
@@ -783,23 +810,17 @@ body {
   height: 499px;
   
   @media screen and (min-width: 319px){
-     margin-left: -55px;
      position:absolute;
      min-width: 400px;
-    
+     margin-left: -60px;
   }
   
-  //NEXUS 4 
-  @media screen and (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2){
-    margin-left: -15px;
-  }
-    
   @media screen and (min-width: 479px){
-     margin-left: 30px;
+    margin-left: 20px;
   }
   
   @media screen and (min-width: 567px){
-    margin-left: 100px;
+    margin-left: 65px;
   }
   
    @media screen and (min-width: 591px){
@@ -810,32 +831,27 @@ body {
   @media screen and (min-width: 767px){
      min-width: 400px;
      margin-left: -75px;
-     bottom: 0;
+     margin-top: 12px;
     }
-    
-   @media screen and (min-width: 767px) and (max-height: 1024px){
-     bottom: -175;
-   }
    
     
    @media screen and (min-width: 980px){
      min-width: 400px;
-     bottom:-165;
      margin-left: -20px;
     }
     
   @media screen and (min-width: 1023px){
     margin-left: -40px;
-     bottom:-50;
   }
   @media screen and (min-width: 1200px){
     margin-left: 0px;
-  bottom: 0;
   }
 
   @media screen and (min-width: 1399px){
     margin-left: 0px;
-  bottom: 0;
+  }
+  @media screen and (min-width: 1919px){
+    margin-top: 44px;
   }
 }
 
@@ -875,14 +891,15 @@ body {
 #unitManagers h2{
    font-family: 'FuturaBold';
     @media screen and (min-width: 767px) and (max-height:1024px){
-     font-size: 50px;
+     font-size: 45px;
+     line-height: 1.2;
     }
    
    @media screen and (min-width: 1023px){
      font-size: 28px;
     }
     @media screen and (min-width: 1399px){
-     font-size: 38px;
+     font-size: 36px;
     }
 }
 
