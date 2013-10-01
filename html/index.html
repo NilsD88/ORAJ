@@ -382,6 +382,7 @@
 			outClass = 'pt-page-rotateFoldLeft', inClass = 'pt-page-rotateUnfoldRight';
 			
 		$currPage.addClass( outClass ).on( animEndEventName, function() {
+			
 			$currPage.off( animEndEventName );
 			endCurrPage = true;
 			if( endNextPage ) {
@@ -390,6 +391,7 @@
 		} );
 		
 		$prevPage.addClass( inClass ).on( animEndEventName, function() {
+			
 			$prevPage.off( animEndEventName );
 			endNextPage = true;
 			if( endCurrPage ) {

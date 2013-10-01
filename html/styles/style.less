@@ -13,8 +13,7 @@
 
 .homepagebackground(@backgroundSize: 400px; @heightPercent: 100%){
   background-size: @backgroundSize;
-  background-position-x: center;
-  background-position-y: top;
+  background-position: center top;
   background-repeat: no-repeat;
   height: @heightPercent;
   width: 100%;
@@ -32,6 +31,7 @@ h1, h2{
 body{
 	font-family: Arial, sans-serif;
 	background-color:@orangeText;
+	overflow:hidden;
 }
 
 h2{
@@ -46,12 +46,16 @@ html{
 	/* MOST SMARTPHONES PORTRAIT */
 	@media screen and (min-width: 319px){
 		padding-top:30px;
-		.page(90%);
+		.page(91%);
 	}
 	/* MOST SMARTPHONES landscape */
 	@media screen and (min-width: 479px){
 		padding-top:30px;
-		.page(90%);
+		.page(76.1%);
+	}
+	
+	@media screen and (min-width: 567px){
+	  .page(76.1%);
 	}
 	
 	@media screen and (min-width: 599px){
@@ -65,12 +69,12 @@ html{
   
   @media screen and (min-width: 767px) and (min-height: 550px){
     padding-top: 80px;
-    .page(87%);
+    .page(88%);
   }
 	
-	 @media screen and (min-width: 797px){
+	 @media screen and (min-width: 799px){
      padding-top: 80px;
-    .page(87%);
+    .page(79%);
   }
   
   @media screen and (min-width: 1023px){
@@ -100,6 +104,8 @@ html{
 }
 
 .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+  position:fixed;
+  
   @media (max-width: 767px){
     margin-left:0px;
     margin-right:0px;
@@ -164,7 +170,11 @@ html{
 	}
 	/* MOST SMARTPHONES landscape */
 	@media screen and (min-width: 479px){
-		.homepagebackground(280px; 96%);
+		.homepagebackground(280px; 121%);
+	}
+	
+	@media screen and (min-width: 592px){
+	  .homepagebackground(280px; 125%);
 	}
 	
 	@media screen and (min-width: 767px){
@@ -479,11 +489,15 @@ body {
     background-image: url('../img/background/home-1440.jpg');
   }
   
+  @media screen and (min-width: 767px) and (max-height: 1024px){
+    background-image: url('../img/background/home-1733.jpg');
+  }
+  
   @media screen and (min-width:799px){
     background-image: url('../img/background/home-1280.jpg');
   }
 		
-	@media screen and (min-width:1280px){
+	@media screen and (min-width:1279px){
 		background-image: url('../img/background/home-1440.jpg');
 	}
 	
@@ -1028,6 +1042,10 @@ body {
     background-image: url('../img/background/about-1440.jpg');
   }
   
+  @media screen and (min-width: 767px) and (max-height: 1024px){
+    background-image: url('../img/background/about-1733.jpg');
+  }
+  
   @media screen and (min-width:799px){
     background-image: url('../img/background/about-1280.jpg');
   }
@@ -1225,7 +1243,7 @@ body {
   }
   
   @media screen and (min-width: 599px){
-    margin-top: 30px;
+    margin-top: 80px;
   }
   
   @media screen and (min-width: 767px){
@@ -1298,6 +1316,10 @@ body {
   
   @media screen and (min-width: 767px) and (min-height:550px){
     background-image: url('../img/background/specialization-1440.jpg');
+  }
+  
+  @media screen and (min-width: 767px) and (max-height: 1024px){
+    background-image: url('../img/background/specialization-1733.jpg');
   }
   
   @media screen and (min-width:799px){
@@ -1405,8 +1427,14 @@ body {
 }
 
 .leftBadge(){
-   margin-left: -120px;
-  margin-top: -50px;
+  @media screen and (min-width: 767px){
+     margin-left: -98px;
+    margin-top: -50px;
+  }
+  @media screen and (min-width: 1279px){
+    margin-left: -120px;
+  }
+  
 }
 
 .cornerBadge(){
@@ -1460,8 +1488,13 @@ body {
    background-image: url('../img/jobs_apexlogo.png');
 }
 .rightBadge(){
-  margin-right: -120px;
-  margin-top: -50px;
+    @media screen and (min-width: 767px){
+     margin-right: -100px;
+    margin-top: -50px;
+  }
+  @media screen and (min-width: 1279px){
+    margin-right: -120px;
+  }
 }
 
 #androidLogo{
@@ -1567,6 +1600,10 @@ body {
   
   @media screen and (min-width: 767px) and (min-height:550px){
     background-image: url('../img/background/jobs-1440.jpg');
+  }
+  
+  @media screen and (min-width: 767px) and (max-height: 1024px){
+    background-image: url('../img/background/jobs-1733.jpg');
   }
   
   @media screen and (min-width:799px){

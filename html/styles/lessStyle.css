@@ -6,6 +6,7 @@ h2 {
 body {
   font-family: Arial, sans-serif;
   background-color: #e98300;
+  overflow: hidden;
 }
 h2 {
   font-size: 28px;
@@ -23,7 +24,7 @@ html {
   .page {
     padding-top: 30px;
     width: 100%;
-    max-height: 90%;
+    max-height: 91%;
     overflow: auto;
     overflow-x: hidden;
   }
@@ -32,7 +33,15 @@ html {
   .page {
     padding-top: 30px;
     width: 100%;
-    max-height: 90%;
+    max-height: 76.1%;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 567px) {
+  .page {
+    width: 100%;
+    max-height: 76.1%;
     overflow: auto;
     overflow-x: hidden;
   }
@@ -59,16 +68,16 @@ html {
   .page {
     padding-top: 80px;
     width: 100%;
-    max-height: 87%;
+    max-height: 88%;
     overflow: auto;
     overflow-x: hidden;
   }
 }
-@media screen and (min-width: 797px) {
+@media screen and (min-width: 799px) {
   .page {
     padding-top: 80px;
     width: 100%;
-    max-height: 87%;
+    max-height: 79%;
     overflow: auto;
     overflow-x: hidden;
   }
@@ -102,6 +111,11 @@ html {
     text-align: right;
     padding-top: 2px;
   }
+}
+.navbar-fixed-top,
+.navbar-fixed-bottom,
+.navbar-static-top {
+  position: fixed;
 }
 @media (max-width: 767px) {
   .navbar-fixed-top,
@@ -172,8 +186,7 @@ html {
 @media screen and (min-width: 319px) {
   #home-page-background {
     background-size: 250px;
-    background-position-x: center;
-    background-position-y: top;
+    background-position: center top;
     background-repeat: no-repeat;
     height: 96%;
     width: 100%;
@@ -183,10 +196,19 @@ html {
 @media screen and (min-width: 479px) {
   #home-page-background {
     background-size: 280px;
-    background-position-x: center;
-    background-position-y: top;
+    background-position: center top;
     background-repeat: no-repeat;
-    height: 96%;
+    height: 121%;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 592px) {
+  #home-page-background {
+    background-size: 280px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 125%;
     width: 100%;
     text-align: center;
   }
@@ -194,8 +216,7 @@ html {
 @media screen and (min-width: 767px) {
   #home-page-background {
     background-size: 280px;
-    background-position-x: center;
-    background-position-y: top;
+    background-position: center top;
     background-repeat: no-repeat;
     height: 96%;
     width: 100%;
@@ -205,8 +226,7 @@ html {
 @media screen and (min-width: 767px) and (min-height: 600px) {
   #home-page-background {
     background-size: 400px;
-    background-position-x: center;
-    background-position-y: top;
+    background-position: center top;
     background-repeat: no-repeat;
     height: 98%;
     width: 100%;
@@ -216,8 +236,7 @@ html {
 @media screen and (min-width: 799px) {
   #home-page-background {
     background-size: 400px;
-    background-position-x: center;
-    background-position-y: top;
+    background-position: center top;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -227,8 +246,7 @@ html {
 @media screen and (min-width: 1023px) {
   #home-page-background {
     background-size: 500px;
-    background-position-x: center;
-    background-position-y: top;
+    background-position: center top;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -238,8 +256,7 @@ html {
 @media screen and (min-width: 1399px) {
   #home-page-background {
     background-size: 500px;
-    background-position-x: center;
-    background-position-y: top;
+    background-position: center top;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -249,8 +266,7 @@ html {
 @media screen and (min-width: 1919px) {
   #home-page-background {
     background-size: 600px;
-    background-position-x: center;
-    background-position-y: top;
+    background-position: center top;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -574,12 +590,17 @@ html {
     background-image: url('../img/background/home-1440.jpg');
   }
 }
+@media screen and (min-width: 767px) and (max-height: 1024px) {
+  #homepage {
+    background-image: url('../img/background/home-1733.jpg');
+  }
+}
 @media screen and (min-width: 799px) {
   #homepage {
     background-image: url('../img/background/home-1280.jpg');
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1279px) {
   #homepage {
     background-image: url('../img/background/home-1440.jpg');
   }
@@ -1190,6 +1211,11 @@ html {
     background-image: url('../img/background/about-1440.jpg');
   }
 }
+@media screen and (min-width: 767px) and (max-height: 1024px) {
+  #page2 {
+    background-image: url('../img/background/about-1733.jpg');
+  }
+}
 @media screen and (min-width: 799px) {
   #page2 {
     background-image: url('../img/background/about-1280.jpg');
@@ -1426,7 +1452,7 @@ html {
 }
 @media screen and (min-width: 599px) {
   #legendTop {
-    margin-top: 30px;
+    margin-top: 80px;
   }
 }
 @media screen and (min-width: 767px) {
@@ -1513,6 +1539,11 @@ html {
 @media screen and (min-width: 767px) and (min-height: 550px) {
   #page3 {
     background-image: url('../img/background/specialization-1440.jpg');
+  }
+}
+@media screen and (min-width: 767px) and (max-height: 1024px) {
+  #page3 {
+    background-image: url('../img/background/specialization-1733.jpg');
   }
 }
 @media screen and (min-width: 799px) {
@@ -1631,9 +1662,18 @@ html {
   margin-bottom: 25px;
 }
 #javaLogoSoftware {
-  margin-left: -120px;
-  margin-top: -50px;
   background-image: url('../img/jobs_javalogo.png');
+}
+@media screen and (min-width: 767px) {
+  #javaLogoSoftware {
+    margin-left: -98px;
+    margin-top: -50px;
+  }
+}
+@media screen and (min-width: 1279px) {
+  #javaLogoSoftware {
+    margin-left: -120px;
+  }
 }
 @media screen and (min-width: 319px) {
   #javaLogoSoftware {
@@ -1659,9 +1699,18 @@ html {
   }
 }
 #apexLogo {
-  margin-left: -120px;
-  margin-top: -50px;
   background-image: url('../img/jobs_apexlogo.png');
+}
+@media screen and (min-width: 767px) {
+  #apexLogo {
+    margin-left: -98px;
+    margin-top: -50px;
+  }
+}
+@media screen and (min-width: 1279px) {
+  #apexLogo {
+    margin-left: -120px;
+  }
 }
 @media screen and (min-width: 319px) {
   #apexLogo {
@@ -1687,9 +1736,18 @@ html {
   }
 }
 #androidLogo {
-  margin-right: -120px;
-  margin-top: -50px;
   background-image: url('../img/jobs_androidlogo.png');
+}
+@media screen and (min-width: 767px) {
+  #androidLogo {
+    margin-right: -100px;
+    margin-top: -50px;
+  }
+}
+@media screen and (min-width: 1279px) {
+  #androidLogo {
+    margin-right: -120px;
+  }
 }
 @media screen and (min-width: 319px) {
   #androidLogo {
@@ -1728,9 +1786,18 @@ html {
   }
 }
 #javaLogoArchitect {
-  margin-right: -120px;
-  margin-top: -50px;
   background-image: url('../img/jobs_javalogo.png');
+}
+@media screen and (min-width: 767px) {
+  #javaLogoArchitect {
+    margin-right: -100px;
+    margin-top: -50px;
+  }
+}
+@media screen and (min-width: 1279px) {
+  #javaLogoArchitect {
+    margin-right: -120px;
+  }
 }
 @media screen and (min-width: 319px) {
   #javaLogoArchitect {
@@ -1827,6 +1894,11 @@ html {
 @media screen and (min-width: 767px) and (min-height: 550px) {
   #page4 {
     background-image: url('../img/background/jobs-1440.jpg');
+  }
+}
+@media screen and (min-width: 767px) and (max-height: 1024px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1733.jpg');
   }
 }
 @media screen and (min-width: 799px) {
