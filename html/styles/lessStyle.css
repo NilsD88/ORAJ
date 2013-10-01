@@ -1242,6 +1242,26 @@ html {
     display: none;
   }
 }
+@media screen and (min-width: 767px) {
+  #chartContainer {
+    margin-top: 15%;
+  }
+}
+@media screen and (min-width: 767px) and (max-height: 1024px) {
+  #chartContainer {
+    margin-top: 25%;
+  }
+}
+@media screen and (min-width: 1023px) {
+  #chartContainer {
+    margin-top: 3%;
+  }
+}
+@media screen and (min-width: 1599) {
+  #chartContainer {
+    margin-top: 1%;
+  }
+}
 #chartContainer > div > a,
 #chartContainerTop > div > a {
   display: none;
@@ -1260,11 +1280,37 @@ html {
   font-weight: bold;
   margin-bottom: 30px;
 }
-.focusJob {
-  font-family: 'FuturaBold';
-  color: #e98300;
-  font-size: 19px;
-  margin-bottom: 0;
+@media screen and (min-width: 319px) {
+  .focusJob {
+    font-family: 'FuturaBold';
+    color: #e98300;
+    font-size: 19px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 479px) {
+  .focusJob {
+    font-family: 'FuturaBold';
+    color: #e98300;
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 767px) {
+  .focusJob {
+    font-family: 'FuturaBold';
+    color: #e98300;
+    font-size: 19px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 767px) {
+  .focusJob {
+    font-family: 'FuturaBold';
+    color: #e98300;
+    font-size: 19px;
+    margin-bottom: 0;
+  }
 }
 .javaArchitectIndicator {
   display: inline;
@@ -1352,6 +1398,7 @@ html {
 @media screen and (min-width: 767px) {
   #legend {
     display: block;
+    float: right;
   }
 }
 @media screen and (min-width: 319px) {
@@ -1359,7 +1406,28 @@ html {
     display: block;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 0 auto;
     margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 479px) {
+  #legendTop {
+    margin-top: 220px;
+  }
+}
+@media screen and (min-width: 567px) {
+  #legendTop {
+    margin-top: 290px;
+  }
+}
+@media screen and (min-width: 592px) {
+  #legendTop {
+    margin-top: 400px;
+  }
+}
+@media screen and (min-width: 599px) {
+  #legendTop {
+    margin-top: 30px;
   }
 }
 @media screen and (min-width: 767px) {
