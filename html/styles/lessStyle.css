@@ -600,6 +600,11 @@ html {
     background-image: url('../img/background/home-1280.jpg');
   }
 }
+@media screen and (min-width: 799px) and (min-height: 800px) {
+  #homepage {
+    background-image: url('../img/background/home-1440.jpg');
+  }
+}
 @media screen and (min-width: 1279px) {
   #homepage {
     background-image: url('../img/background/home-1440.jpg');
@@ -1236,6 +1241,11 @@ html {
     background-image: url('../img/background/about-1280.jpg');
   }
 }
+@media screen and (min-width: 799px) and (min-height: 800px) {
+  #page2 {
+    background-image: url('../img/background/about-1440.jpg');
+  }
+}
 @media screen and (min-width: 1280px) {
   #page2 {
     background-image: url('../img/background/about-1440.jpg');
@@ -1457,7 +1467,7 @@ html {
 }
 @media screen and (min-width: 567px) {
   #legendTop {
-    margin-top: 290px;
+    margin-top: 350px;
   }
 }
 @media screen and (min-width: 592px) {
@@ -1564,6 +1574,11 @@ html {
 @media screen and (min-width: 799px) {
   #page3 {
     background-image: url('../img/background/specialization-1280.jpg');
+  }
+}
+@media screen and (min-width: 799px) and (min-height: 800px) {
+  #page3 {
+    background-image: url('../img/background/specialization-1440.jpg');
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1919,6 +1934,11 @@ html {
 @media screen and (min-width: 799px) {
   #page4 {
     background-image: url('../img/background/jobs-1280.jpg');
+  }
+}
+@media screen and (min-width: 799px) and (min-height: 800px) {
+  #page4 {
+    background-image: url('../img/background/jobs-1440.jpg');
   }
 }
 @media screen and (min-width: 1280px) {
